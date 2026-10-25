@@ -1,0 +1,54 @@
+{
+ "all": {
+  "n": 222,
+  "share": {
+   "good": 0.653,
+   "weak": 0.23,
+   "bad": 0.099,
+   "dead": 0.018
+  },
+  "median_ms": 45,
+  "p90_ms": 214,
+  "mean_loss": 4.4
+ },
+ "excluded_n": 23,
+ "sections": {
+  "Rail Baltica (linia 6)": {
+   "n": 79,
+   "share": {
+    "good": 0.608,
+    "weak": 0.228,
+    "bad": 0.152,
+    "dead": 0.013
+   },
+   "median_ms": 46,
+   "p90_ms": 539,
+   "mean_loss": 6.1
+  },
+  "Węzeł warszawski": {
+   "n": 83,
+   "share": {
+    "good": 0.723,
+    "weak": 0.229,
+    "bad": 0.048,
+    "dead": 0.0
+   },
+   "median_ms": 41,
+   "p90_ms": 109,
+   "mean_loss": 1.6
+  },
+  "CMK (linia 4)": {
+   "n": 60,
+   "share": {
+    "good": 0.617,
+    "weak": 0.233,
+    "bad": 0.1,
+    "dead": 0.05
+   },
+   "median_ms": 52,
+   "p90_ms": 230,
+   "mean_loss": 6.2
+  }
+ },
+ "zones": 21
+}
