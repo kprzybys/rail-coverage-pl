@@ -24,7 +24,7 @@ plt.rcParams.update({"font.family": "DejaVu Sans", "font.size": 10, "axes.edgeco
 def section_of(trip, km):
     by = {s["name"]: s["km"] for s in trip.stops}
     for sec in trip.meta.get("sections", []):
-        if by[sec["from"]] <= km <= by[sec["to"]]:
+        if by[sec["from"]] - 0.01 <= km <= by[sec["to"]] + 0.01:
             return sec["name"]
     return None
 

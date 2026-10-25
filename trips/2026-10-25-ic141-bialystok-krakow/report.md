@@ -6,10 +6,10 @@ Pomiar jakości mobilnego internetu w pociągu: hotspot iPhone, hotspot Wi-Fi 2,
 
 ## Najważniejsze liczby
 
-- pomiarów: **458** (+36 pominiętych jako zakłócone)
-- dobre łącze: **70%** pomiarów, wahania 16%, słabe 7%, brak łącza 6%
-- mediana średniego pingu: **42 ms**, 90. percentyl: 144 ms
-- odcinków słabych lub bez łącza: **36**
+- pomiarów: **488** (+36 pominiętych jako zakłócone)
+- dobre łącze: **71%** pomiarów, wahania 16%, słabe 8%, brak łącza 6%
+- mediana średniego pingu: **42 ms**, 90. percentyl: 157 ms
+- odcinków słabych lub bez łącza: **41**
 
 ## Odcinki trasy
 
@@ -19,8 +19,8 @@ Pomiar jakości mobilnego internetu w pociągu: hotspot iPhone, hotspot Wi-Fi 2,
 |---|---:|---:|---:|---:|
 | Rail Baltica (linia 6) | 79 | 61% | 16% | 46 ms |
 | Węzeł warszawski | 83 | 72% | 5% | 41 ms |
-| CMK (linia 4) | 153 | 64% | 20% | 47 ms |
-| CMK płd. i linia 8 do Krakowa | 143 | 82% | 9% | 37 ms |
+| CMK (linia 4) | 155 | 64% | 20% | 47 ms |
+| CMK płd. i linia 8 do Krakowa | 171 | 80% | 11% | 37 ms |
 
 ## Martwe i słabe strefy
 
@@ -62,6 +62,11 @@ Pomiar jakości mobilnego internetu w pociągu: hotspot iPhone, hotspot Wi-Fi 2,
 | 21:30–21:33 | 11 km przed st. Kozłów (km 384) | 100% strat | T-Mobile 2.95 km (Sędziszów) |
 | 21:37 | Kozłów (km 395) | 100% strat | Orange 1.15 km (Kozłów) |
 | 21:41 | 6 km za st. Kozłów (km 401) | 550 ms, strata 0% | Orange 2.79 km (Uniejów-Kolonia) |
+| 22:26 | Kraków Główny (km 440) | 735 ms, strata 0% | T-Mobile 0.17 km (Kraków) |
+| 22:28 | Kraków Główny (km 440) | 918 ms, strata 0% | T-Mobile 0.17 km (Kraków) |
+| 22:29 | Kraków Główny (km 440) | 329 ms, strata 0% | T-Mobile 0.17 km (Kraków) |
+| 22:31 | Kraków Główny (km 440) | 661 ms, strata 10% | T-Mobile 0.17 km (Kraków) |
+| 22:32 | Kraków Główny (km 440) | 389 ms, strata 0% | T-Mobile 0.17 km (Kraków) |
 
 ## Stacje bazowe a jakość
 
@@ -93,3 +98,7 @@ Odległość liczona od szacowanej pozycji pociągu do najbliższej lokalizacji 
 - 21:39: pasażer: hotspot znów wyłączył się na chwilę (potwierdzone w logu NetworkManager)
 - 21:45: potwierdzenie pasażera: postój w Miechowie
 - 21:59: potwierdzenie pasażera: odjazd z Miechowa
+- 22:25: pasażer: nieplanowany postój ok. 1 km przed Krakowem Głównym
+- 22:27: pasażer: telefon przełożony spod okna do środka przedziału (koniec standardowego ustawienia)
+- 22:30: pasażer: pociąg ruszył po nieplanowanym postoju przed Krakowem Głównym
+- 22:36: pasażer: przyjazd na Kraków Główny (opóźnienie ok. 12 min); koniec pomiaru

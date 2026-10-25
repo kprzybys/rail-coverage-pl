@@ -217,6 +217,22 @@
     {
       "time": "2026-10-25T21:59:56+01:00",
       "text": "potwierdzenie pasażera: odjazd z Miechowa"
+    },
+    {
+      "time": "2026-10-25T22:25:25+01:00",
+      "text": "pasażer: nieplanowany postój ok. 1 km przed Krakowem Głównym"
+    },
+    {
+      "time": "2026-10-25T22:27:07+01:00",
+      "text": "pasażer: telefon przełożony spod okna do środka przedziału (koniec standardowego ustawienia)"
+    },
+    {
+      "time": "2026-10-25T22:30:44+01:00",
+      "text": "pasażer: pociąg ruszył po nieplanowanym postoju przed Krakowem Głównym"
+    },
+    {
+      "time": "2026-10-25T22:36:55+01:00",
+      "text": "pasażer: przyjazd na Kraków Główny (opóźnienie ok. 12 min); koniec pomiaru"
     }
   ],
   "gps": {
