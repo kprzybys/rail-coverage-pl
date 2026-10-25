@@ -30,7 +30,8 @@ def main():
     start = max((i for i, (_, la, lo) in enumerate(pts) if hav((la, lo), (first["lat"], first["lon"])) <= a.radius_km), default=0)
     # end: first time we reach the last station
     end = next((i for i, (_, la, lo) in enumerate(pts) if i > start and hav((la, lo), (last["lat"], last["lon"])) <= a.radius_km), len(pts) - 1)
-    kept = [p for p in pts[start:end + 1] if trip.dist_to_route(p[1], p[2]) <= 5]
+    # the timetable route is straight lines between stations, so only drop gross GPS outliers
+    kept = [p for p in pts[start:end + 1] if trip.dist_to_route(p[1], p[2]) <= 20]
     ET.register_namespace("", NS)
     gpx = ET.Element(f"{{{NS}}}gpx", version="1.1", creator="rail-coverage-pl")
     seg = ET.SubElement(ET.SubElement(gpx, f"{{{NS}}}trk"), f"{{{NS}}}trkseg")
