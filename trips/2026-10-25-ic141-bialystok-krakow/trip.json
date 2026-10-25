@@ -2,7 +2,11 @@
   "id": "2026-10-25-ic141-bialystok-krakow",
   "date": "2026-10-25",
   "utc_offset": "+01:00",
-  "train": {"number": "IC 141", "name": "Hańcza", "operator": "PKP Intercity"},
+  "train": {
+    "number": "IC 141",
+    "name": "Hańcza",
+    "operator": "PKP Intercity"
+  },
   "from": "Białystok",
   "to": "Kraków Główny",
   "network": {
@@ -19,45 +23,196 @@
   },
   "timetable_source": "https://www.europodroze.pl/pociag/hancza/ic-141 (rozkład ważny do 25.10.2026)",
   "timetable": [
-    ["Białystok", null, "17:32"],
-    ["Białystok Zielone Wzgórza", "17:35", "17:36"],
-    ["Łapy", null, null],
-    ["Szepietowo", null, null],
-    ["Czyżew", null, null],
-    ["Małkinia", null, null],
-    ["Łochów", null, null],
-    ["Tłuszcz", null, null],
-    ["Wołomin", null, null],
-    ["Zielonka", null, null],
-    ["Warszawa Wschodnia", "18:59", "19:01"],
-    ["Warszawa Centralna", "19:07", "19:28"],
-    ["Warszawa Zachodnia", "19:32", "19:33"],
-    ["Grodzisk Mazowiecki", null, null],
-    ["Opoczno Południe", "20:28", "20:38"],
-    ["Włoszczowa Północ", "21:06", "21:07"],
-    ["Kozłów", null, null],
-    ["Miechów", "21:44", "21:58"],
-    ["Kraków Główny", "22:24", null]
+    [
+      "Białystok",
+      null,
+      "17:32"
+    ],
+    [
+      "Białystok Zielone Wzgórza",
+      "17:35",
+      "17:36"
+    ],
+    [
+      "Łapy",
+      null,
+      null
+    ],
+    [
+      "Szepietowo",
+      null,
+      null
+    ],
+    [
+      "Czyżew",
+      null,
+      null
+    ],
+    [
+      "Małkinia",
+      null,
+      null
+    ],
+    [
+      "Łochów",
+      null,
+      null
+    ],
+    [
+      "Tłuszcz",
+      null,
+      null
+    ],
+    [
+      "Wołomin",
+      null,
+      null
+    ],
+    [
+      "Zielonka",
+      null,
+      null
+    ],
+    [
+      "Warszawa Wschodnia",
+      "18:59",
+      "19:01"
+    ],
+    [
+      "Warszawa Centralna",
+      "19:07",
+      "19:28"
+    ],
+    [
+      "Warszawa Zachodnia",
+      "19:32",
+      "19:33"
+    ],
+    [
+      "Grodzisk Mazowiecki",
+      null,
+      null
+    ],
+    [
+      "Opoczno Południe",
+      "20:28",
+      "20:38"
+    ],
+    [
+      "Włoszczowa Północ",
+      "21:06",
+      "21:07"
+    ],
+    [
+      "Kozłów",
+      null,
+      null
+    ],
+    [
+      "Miechów",
+      "21:44",
+      "21:58"
+    ],
+    [
+      "Kraków Główny",
+      "22:24",
+      null
+    ]
   ],
   "sections": [
-    {"name": "Rail Baltica (linia 6)", "from": "Białystok", "to": "Zielonka"},
-    {"name": "Węzeł warszawski", "from": "Zielonka", "to": "Grodzisk Mazowiecki"},
-    {"name": "CMK (linia 4)", "from": "Grodzisk Mazowiecki", "to": "Włoszczowa Północ"},
-    {"name": "CMK płd. i linia 8 do Krakowa", "from": "Włoszczowa Północ", "to": "Kraków Główny"}
+    {
+      "name": "Rail Baltica (linia 6)",
+      "from": "Białystok",
+      "to": "Zielonka"
+    },
+    {
+      "name": "Węzeł warszawski",
+      "from": "Zielonka",
+      "to": "Grodzisk Mazowiecki"
+    },
+    {
+      "name": "CMK (linia 4)",
+      "from": "Grodzisk Mazowiecki",
+      "to": "Włoszczowa Północ"
+    },
+    {
+      "name": "CMK płd. i linia 8 do Krakowa",
+      "from": "Włoszczowa Północ",
+      "to": "Kraków Główny"
+    }
   ],
   "delays": [
-    {"since": "2026-10-25T19:30:00+01:00", "seconds": 120, "source": "obserwacja: postój na Warszawie Zachodniej ok. 19:34"}
+    {
+      "since": "2026-10-25T19:30:00+01:00",
+      "seconds": 120,
+      "source": "obserwacja: postój na Warszawie Zachodniej ok. 19:34"
+    },
+    {
+      "since": "2026-10-25T20:40:20+01:00",
+      "seconds": 140,
+      "source": "obserwacja: odjazd z Opoczna Południe zgłoszony przez pasażera"
+    },
+    {
+      "since": "2026-10-25T21:09:13+01:00",
+      "seconds": 133,
+      "source": "obserwacja: odjazd z Włoszczowy Północ zgłoszony przez pasażera"
+    },
+    {
+      "since": "2026-10-25T21:45:44+01:00",
+      "seconds": 104,
+      "source": "obserwacja: postój w Miechowie zgłoszony przez pasażera"
+    }
   ],
   "excluded": [
     {
       "from": "2026-10-25T19:09:30+01:00",
       "to": "2026-10-25T19:21:30+01:00",
       "reason": "zakłócenie pomiaru: laptop pobierał ok. 7 MB danych UKE przez to samo łącze (bufferbloat)"
+    },
+    {
+      "from": "2026-10-25T20:40:57+01:00",
+      "to": "2026-10-25T20:45:00+01:00",
+      "reason": "hotspot w telefonie wyłączył się sam (NetworkManager: ssid-not-found 20:40:57, ponowne połączenie Wi-Fi 20:44:04); okno obejmuje też ok. 1 min po ponownym połączeniu"
+    },
+    {
+      "from": "2026-10-25T21:38:13+01:00",
+      "to": "2026-10-25T21:39:55+01:00",
+      "reason": "hotspot w telefonie wyłączył się sam (NetworkManager: ssid-not-found 21:38:13, ponowne połączenie Wi-Fi 21:38:54); okno obejmuje też ok. 1 min po ponownym połączeniu"
     }
   ],
   "observations": [
-    {"time": "2026-10-25T19:11:00+01:00", "text": "potwierdzenie pasażera: postój na Warszawie Centralnej (perony podziemne)"},
-    {"time": "2026-10-25T19:34:00+01:00", "text": "potwierdzenie pasażera: postój na Warszawie Zachodniej"}
+    {
+      "time": "2026-10-25T19:11:00+01:00",
+      "text": "potwierdzenie pasażera: postój na Warszawie Centralnej (perony podziemne)"
+    },
+    {
+      "time": "2026-10-25T19:34:00+01:00",
+      "text": "potwierdzenie pasażera: postój na Warszawie Zachodniej"
+    },
+    {
+      "time": "2026-10-25T20:40:20+01:00",
+      "text": "potwierdzenie pasażera: odjazd z Opoczna Południe"
+    },
+    {
+      "time": "2026-10-25T20:44:30+01:00",
+      "text": "pasażer: hotspot w telefonie wyłączył się na kilka minut (potwierdzone w logu NetworkManager)"
+    },
+    {
+      "time": "2026-10-25T21:09:13+01:00",
+      "text": "potwierdzenie pasażera: odjazd z Włoszczowy Północ"
+    },
+    {
+      "time": "2026-10-25T21:39:30+01:00",
+      "text": "pasażer: hotspot znów wyłączył się na chwilę (potwierdzone w logu NetworkManager)"
+    },
+    {
+      "time": "2026-10-25T21:45:44+01:00",
+      "text": "potwierdzenie pasażera: postój w Miechowie"
+    }
   ],
-  "gps": {"file": "track.gpx", "start": "2026-10-25T18:19:15+01:00", "clip": "od stacji Białystok do stacji Kraków Główny"}
+  "gps": {
+    "file": "track.gpx",
+    "start": "2026-10-25T18:19:15+01:00",
+    "clip": "od stacji Białystok do stacji Kraków Główny"
+  }
 }

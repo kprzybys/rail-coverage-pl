@@ -48,14 +48,16 @@ const rail = L.tileLayer("https://{s}.tiles.openrailwaymap.org/standard/{z}/{x}/
   attribution: '<a href="https://www.openrailwaymap.org/">OpenRailwayMap</a> (CC-BY-SA)' }).addTo(map);
 const css = n => getComputedStyle(document.documentElement).getPropertyValue("--" + n).trim();
 const PL = { good: "dobre", weak: "wahania", bad: "słabe", dead: "brak łącza", excluded: "pominięty (zakłócony)" };
-let layer = null;
+let layer = null, bts = null, ctl = null;
 function show(t) {
   if (layer) layer.remove();
+  if (bts) bts.remove();
+  if (ctl) ctl.remove();
   layer = L.layerGroup().addTo(map);
-  const bts = L.layerGroup();
-  for (const s of t.sites) L.circleMarker([s.lat, s.lon], { radius: 3, stroke: false, fillOpacity: .5,
-    fillColor: s.op === "Orange" ? "#f07b16" : "#c2187a" }).bindTooltip(`${s.op} · ${s.place}<br>${s.bands.join(", ")}`).addTo(bts);
-  bts.addTo(layer);
+  bts = L.layerGroup();
+  for (const s of t.sites) L.circleMarker([s.lat, s.lon], { radius: 2.5, stroke: false, fillOpacity: .35,
+    fillColor: s.op === "Orange" ? "#f07b16" : "#c2187a" }).bindTooltip(`${s.op} · ${s.place}<br>${s.bands.join(", ")}<br>pozwolenie UKE`).addTo(bts);
+  ctl = L.control.layers(null, { "Stacje bazowe (pozwolenia UKE)": bts, "OpenRailwayMap": rail }, { position: "topright" }).addTo(map);
   L.polyline(t.stations.map(s => [s.lat, s.lon]), { color: "#8a9692", weight: 3, dashArray: "6 6" }).addTo(layer);
   for (const s of t.stations) if (s.arr || s.dep) L.circleMarker([s.lat, s.lon], { radius: 5, color: "#18211f", weight: 2, fillColor: "#fff", fillOpacity: 1 })
     .bindTooltip(`${s.name} ${s.arr || ""}${s.arr && s.dep ? "–" : ""}${s.dep || ""}`).addTo(layer);

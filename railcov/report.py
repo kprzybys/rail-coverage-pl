@@ -92,7 +92,7 @@ def fig_timeline(trip, rows, path):
     fig.suptitle(f"{t['number']} {t['name']} {trip.meta['from']} → {trip.meta['to']}, {trip.meta['date']}: ping przez hotspot {trip.meta['network']['operator']}",
                  x=0.01, y=1.06, ha="left", fontsize=12, color=INK, fontweight="bold")
     handles = [plt.Line2D([], [], marker="o", ls="", color=COL[g], label=GRADE_PL[g]) for g in GRADES + ["excluded"]]
-    ax.legend(handles=handles, loc="upper right", ncol=5, frameon=False, fontsize=8.5, bbox_to_anchor=(1, 1.0))
+    fig.legend(handles=handles, loc="lower center", ncol=5, frameon=False, fontsize=8.5, bbox_to_anchor=(0.5, -0.06))
     fig.savefig(path, dpi=160, bbox_inches="tight")
     plt.close(fig)
 
@@ -172,10 +172,12 @@ def write_report(trip, rows, summary, path):
     for e in m.get("excluded", []):
         L.append(f"- Pominięto {e['from'][11:16]}–{e['to'][11:16]}: {e['reason']}.")
     for d in m.get("delays", []):
-        L.append(f"- Od {d['since'][11:16]} przyjęto opóźnienie {d['seconds'] // 60} min ({d['source']}).")
+        L.append(f"- Od {d['since'][11:16]} przyjęto opóźnienie {d['seconds'] // 60} min {d['seconds'] % 60} s ({d['source']}).")
     L += [f"- {m['collector']['note'].capitalize()}.",
           "- Bez GPS pozycja jest liczona przy stałej prędkości między postojami, po prostej między stacjami; błąd sięga kilku km.",
           "- Jeden telefon, jedna sieć, jeden przejazd: to obserwacja, nie pomiar referencyjny.", ""]
+    if m.get("observations"):
+        L += ["## Dziennik podróży", ""] + [f"- {o['time'][11:16]}: {o['text']}" for o in m["observations"]] + [""]
     open(path, "w").write("\n".join(L))
 
 

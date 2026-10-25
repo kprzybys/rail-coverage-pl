@@ -6,10 +6,10 @@ Pomiar jakości mobilnego internetu w pociągu: hotspot iPhone, hotspot Wi-Fi 2,
 
 ## Najważniejsze liczby
 
-- pomiarów: **222** (+23 pominiętych jako zakłócone)
-- dobre łącze: **65%** pomiarów, wahania 23%, słabe 10%, brak łącza 2%
-- mediana średniego pingu: **45 ms**, 90. percentyl: 214 ms
-- odcinków słabych lub bez łącza: **21**
+- pomiarów: **408** (+36 pominiętych jako zakłócone)
+- dobre łącze: **69%** pomiarów, wahania 16%, słabe 8%, brak łącza 7%
+- mediana średniego pingu: **44 ms**, 90. percentyl: 158 ms
+- odcinków słabych lub bez łącza: **36**
 
 ## Odcinki trasy
 
@@ -19,7 +19,8 @@ Pomiar jakości mobilnego internetu w pociągu: hotspot iPhone, hotspot Wi-Fi 2,
 |---|---:|---:|---:|---:|
 | Rail Baltica (linia 6) | 79 | 61% | 16% | 46 ms |
 | Węzeł warszawski | 83 | 72% | 5% | 41 ms |
-| CMK (linia 4) | 60 | 62% | 15% | 52 ms |
+| CMK (linia 4) | 153 | 64% | 20% | 47 ms |
+| CMK płd. i linia 8 do Krakowa | 93 | 81% | 14% | 41 ms |
 
 ## Martwe i słabe strefy
 
@@ -46,6 +47,21 @@ Pomiar jakości mobilnego internetu w pociągu: hotspot iPhone, hotspot Wi-Fi 2,
 | 20:09–20:10 | 42 km przed st. Opoczno Południe (km 251) | 100% strat | Orange 2.67 km (Łaszczyn) |
 | 20:12–20:13 | 36 km przed st. Opoczno Południe (km 257) | 100% strat | Orange 3.0 km (Rudki) |
 | 20:16 | 28 km przed st. Opoczno Południe (km 265) | 693 ms, strata 0% | T-Mobile 3.42 km (Wólka Kuligowska) |
+| 20:18 | 24 km przed st. Opoczno Południe (km 268) | 2685 ms, strata 0% | T-Mobile 3.16 km (Rzeczyca) |
+| 20:20 | 19 km przed st. Opoczno Południe (km 274) | 100% strat | Orange 2.3 km (Studzianna) |
+| 20:22–20:23 | 15 km przed st. Opoczno Południe (km 278) | 100% strat | T-Mobile 3.89 km (Idzikowice) |
+| 20:27 | 6 km przed st. Opoczno Południe (km 287) | 100% strat | T-Mobile 2.26 km (Opoczno) |
+| 20:29–20:32 | Opoczno Południe (km 292) | 100% strat | T-Mobile 3.14 km (Opoczno) |
+| 20:33 | Opoczno Południe (km 293) | 100% strat | Orange 3.52 km (Opoczno) |
+| 20:35 | Opoczno Południe (km 293) | 100% strat | Orange 3.52 km (Opoczno) |
+| 20:39–20:40 | Opoczno Południe (km 293) | 100% strat | Orange 3.52 km (Opoczno) |
+| 20:46 | 13 km za st. Opoczno Południe (km 305) | 342 ms, strata 0% | Orange 2.36 km (Sielec) |
+| 20:50–20:51 | 22 km za st. Opoczno Południe (km 315) | 100% strat | Orange 4.93 km (Tomaszów) |
+| 20:55 | 27 km przed st. Włoszczowa Północ (km 326) | 2937 ms, strata 0% | T-Mobile 1.2 km (Adelinów) |
+| 21:14 | 8 km za st. Włoszczowa Północ (km 360) | 588 ms, strata 0% | Orange 3.2 km (Czarnca) |
+| 21:30–21:33 | 11 km przed st. Kozłów (km 384) | 100% strat | T-Mobile 2.95 km (Sędziszów) |
+| 21:37 | Kozłów (km 395) | 100% strat | Orange 1.15 km (Kozłów) |
+| 21:41 | 6 km za st. Kozłów (km 401) | 550 ms, strata 0% | Orange 2.79 km (Uniejów-Kolonia) |
 
 ## Stacje bazowe a jakość
 
@@ -56,7 +72,22 @@ Odległość liczona od szacowanej pozycji pociągu do najbliższej lokalizacji 
 ## Zastrzeżenia
 
 - Pominięto 19:09–19:21: zakłócenie pomiaru: laptop pobierał ok. 7 MB danych UKE przez to samo łącze (bufferbloat).
-- Od 19:30 przyjęto opóźnienie 2 min (obserwacja: postój na Warszawie Zachodniej ok. 19:34).
+- Pominięto 20:40–20:45: hotspot w telefonie wyłączył się sam (NetworkManager: ssid-not-found 20:40:57, ponowne połączenie Wi-Fi 20:44:04); okno obejmuje też ok. 1 min po ponownym połączeniu.
+- Pominięto 21:38–21:39: hotspot w telefonie wyłączył się sam (NetworkManager: ssid-not-found 21:38:13, ponowne połączenie Wi-Fi 21:38:54); okno obejmuje też ok. 1 min po ponownym połączeniu.
+- Od 19:30 przyjęto opóźnienie 2 min 0 s (obserwacja: postój na Warszawie Zachodniej ok. 19:34).
+- Od 20:40 przyjęto opóźnienie 2 min 20 s (obserwacja: odjazd z Opoczna Południe zgłoszony przez pasażera).
+- Od 21:09 przyjęto opóźnienie 2 min 13 s (obserwacja: odjazd z Włoszczowy Północ zgłoszony przez pasażera).
+- Od 21:45 przyjęto opóźnienie 1 min 44 s (obserwacja: postój w Miechowie zgłoszony przez pasażera).
 - Odpowiedź później niż 2 s liczy się jako strata.
 - Bez GPS pozycja jest liczona przy stałej prędkości między postojami, po prostej między stacjami; błąd sięga kilku km.
 - Jeden telefon, jedna sieć, jeden przejazd: to obserwacja, nie pomiar referencyjny.
+
+## Dziennik podróży
+
+- 19:11: potwierdzenie pasażera: postój na Warszawie Centralnej (perony podziemne)
+- 19:34: potwierdzenie pasażera: postój na Warszawie Zachodniej
+- 20:40: potwierdzenie pasażera: odjazd z Opoczna Południe
+- 20:44: pasażer: hotspot w telefonie wyłączył się na kilka minut (potwierdzone w logu NetworkManager)
+- 21:09: potwierdzenie pasażera: odjazd z Włoszczowy Północ
+- 21:39: pasażer: hotspot znów wyłączył się na chwilę (potwierdzone w logu NetworkManager)
+- 21:45: potwierdzenie pasażera: postój w Miechowie

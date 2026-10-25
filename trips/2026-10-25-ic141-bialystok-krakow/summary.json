@@ -1,17 +1,17 @@
 {
  "all": {
-  "n": 222,
+  "n": 408,
   "share": {
-   "good": 0.653,
-   "weak": 0.23,
-   "bad": 0.099,
-   "dead": 0.018
+   "good": 0.689,
+   "weak": 0.162,
+   "bad": 0.083,
+   "dead": 0.066
   },
-  "median_ms": 45,
-  "p90_ms": 214,
-  "mean_loss": 4.4
+  "median_ms": 44,
+  "p90_ms": 158,
+  "mean_loss": 8.7
  },
- "excluded_n": 23,
+ "excluded_n": 36,
  "sections": {
   "Rail Baltica (linia 6)": {
    "n": 79,
@@ -38,17 +38,29 @@
    "mean_loss": 1.6
   },
   "CMK (linia 4)": {
-   "n": 60,
+   "n": 153,
    "share": {
-    "good": 0.617,
-    "weak": 0.233,
-    "bad": 0.1,
-    "dead": 0.05
+    "good": 0.641,
+    "weak": 0.157,
+    "bad": 0.078,
+    "dead": 0.124
    },
-   "median_ms": 52,
-   "p90_ms": 230,
-   "mean_loss": 6.2
+   "median_ms": 47,
+   "p90_ms": 200,
+   "mean_loss": 13.1
+  },
+  "CMK płd. i linia 8 do Krakowa": {
+   "n": 93,
+   "share": {
+    "good": 0.806,
+    "weak": 0.054,
+    "bad": 0.065,
+    "dead": 0.075
+   },
+   "median_ms": 41,
+   "p90_ms": 65,
+   "mean_loss": 9.9
   }
  },
- "zones": 21
+ "zones": 36
 }

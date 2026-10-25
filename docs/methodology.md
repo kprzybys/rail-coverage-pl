@@ -29,6 +29,14 @@ A permit does not prove the station is on air or that it covers the track.
 Time windows in `trip.json → excluded` are shown on the map in grey and left out of all
 statistics. Each one states the reason.
 
+## Hotspot dropouts
+
+On the first trip the iPhone switched its hotspot off by itself twice, both times
+right after a long loss of cellular data. The laptop's NetworkManager log
+(`ssid-not-found`, then a new DHCP lease) gives the exact window. Such windows, plus
+about a minute after reconnecting, are excluded: they measure the phone, not the network.
+Check `journalctl -u NetworkManager` after every trip.
+
 ## Limits
 
 - One phone, one network, one trip per folder. Treat a single trip as an observation.
