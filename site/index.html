@@ -3,65 +3,192 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>rail-coverage-pl</title>
+<title>Zasięg w pociągu · rail-coverage-pl</title>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <style>
-  :root { --bg:#f3f5f4; --fg:#18211f; --muted:#5d6a66; --good:#1f9d55; --weak:#d9a400; --bad:#d4462f; --dead:#18211f; --excluded:#b8c2be; }
-  html, body { height: 100%; margin: 0; font: 14px/1.4 system-ui, sans-serif; color: var(--fg); background: var(--bg); }
-  #map { position: absolute; inset: 0; }
-  .panel { position: absolute; z-index: 1000; top: 12px; left: 56px; max-width: min(360px, calc(100% - 80px)); background: #fff;
-           border-radius: 6px; padding: 10px 14px; box-shadow: 0 2px 10px rgba(0,0,0,.18); }
-  .panel h1 { font-size: 16px; margin: 0 0 4px; }
-  .panel p { margin: 4px 0; color: var(--muted); font-size: 12.5px; }
-  .lg { display: flex; flex-wrap: wrap; gap: 4px 12px; font-size: 12px; margin-top: 6px; }
-  .lg i { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 4px; vertical-align: -1px; }
-  select { margin-top: 6px; max-width: 100%; }
+  :root { --bg:#f3f5f4; --panel:#fff; --fg:#18211f; --muted:#5d6a66; --line:#d5dcd9;
+          --good:#1f9d55; --weak:#d9a400; --bad:#d4462f; --dead:#18211f; --excluded:#b8c2be; --train:#0b5fff; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#111816; --panel:#19221f; --fg:#e3ebe8; --muted:#93a19c; --line:#2c3834;
+          --good:#3cc274; --weak:#f0c02e; --bad:#f2674f; --dead:#e3ebe8; --excluded:#56625e; --train:#5b93ff; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 15px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  .wrap { max-width: 1180px; margin: 0 auto; padding: 20px max(16px, env(safe-area-inset-left)); display: grid; gap: 18px; }
+  header { display: flex; flex-wrap: wrap; gap: 10px 24px; align-items: end; justify-content: space-between; }
+  h1 { margin: 0; font-size: clamp(24px, 4vw, 34px); line-height: 1.1; }
+  h1 small { display: block; font-size: 13px; font-weight: 500; color: var(--muted); letter-spacing: .06em; text-transform: uppercase; margin-bottom: 4px; }
+  h2 { margin: 0 0 10px; font-size: 18px; }
+  select, button { font: inherit; color: var(--fg); background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; }
+  button { cursor: pointer; } button:focus-visible, select:focus-visible { outline: 2px solid var(--train); outline-offset: 2px; }
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 14px; min-width: 0; }
+  .stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; }
+  .stats div { padding: 10px 12px; border: 1px solid var(--line); border-radius: 8px; background: var(--panel); }
+  .stats b { display: block; font-size: 22px; font-variant-numeric: tabular-nums; }
+  .stats span { color: var(--muted); font-size: 13px; }
+  @media (max-width: 640px) { .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+  #map { height: min(62vh, 560px); border-radius: 8px; }
+  .player { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-top: 10px; }
+  .player input[type=range] { flex: 1 1 240px; }
+  .now { font-variant-numeric: tabular-nums; color: var(--muted); font-size: 14px; min-width: 0; }
+  canvas { width: 100%; display: block; }
+  .legend { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 13px; color: var(--muted); margin-top: 8px; }
+  .legend i { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 5px; vertical-align: -1px; }
+  .zones { display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 10px; }
+  .zone { border: 1px solid var(--line); border-left: 5px solid var(--dead); border-radius: 8px; padding: 10px 12px; background: var(--panel); cursor: pointer; }
+  .zone.bad { border-left-color: var(--bad); }
+  .zone b { font-size: 20px; font-variant-numeric: tabular-nums; }
+  .zone p { margin: 2px 0; font-size: 13px; color: var(--muted); }
+  footer { color: var(--muted); font-size: 13px; }
+  a { color: var(--train); }
 </style>
 </head>
 <body>
-<div id="map"></div>
-<div class="panel">
-  <h1>Zasięg internetu w pociągach</h1>
-  <p>Ping co 30 s przez hotspot w telefonie, pozycja z GPS lub rozkładu jazdy. <a href="https://github.com/kprzybys/rail-coverage-pl">Dane i kod na GitHubie</a>.</p>
-  <select id="trip"></select>
-  <div class="lg"><span><i style="background:var(--good)"></i>dobre</span><span><i style="background:var(--weak)"></i>wahania</span>
-  <span><i style="background:var(--bad)"></i>słabe</span><span><i style="background:var(--dead)"></i>brak łącza</span>
-  <span><i style="background:#f07b16;opacity:.6"></i>BTS Orange</span><span><i style="background:#c2187a;opacity:.6"></i>BTS T-Mobile</span></div>
+<div class="wrap">
+  <header>
+    <h1><small id="sub"></small><span id="title">Zasięg internetu w pociągu</span></h1>
+    <select id="trip" aria-label="Przejazd"></select>
+  </header>
+  <div class="stats" id="stats"></div>
+
+  <section class="card">
+    <h2>Odtwarzanie podróży</h2>
+    <div id="map"></div>
+    <div class="player">
+      <button id="play" type="button">▶ Odtwórz</button>
+      <select id="speed" aria-label="Prędkość"><option value="60">60 s</option><option value="30">30 s</option><option value="120">2 min</option></select>
+      <input id="seek" type="range" min="0" max="1000" value="0" aria-label="Czas podróży">
+      <span class="now" id="now"></span>
+    </div>
+    <canvas id="chart" height="150"></canvas>
+    <div class="legend"><span><i style="background:var(--good)"></i>dobre</span><span><i style="background:var(--weak)"></i>wahania</span>
+      <span><i style="background:var(--bad)"></i>słabe</span><span><i style="background:var(--dead)"></i>brak łącza</span>
+      <span><i style="background:var(--excluded)"></i>pominięty (zakłócony pomiar)</span></div>
+  </section>
+
+  <section class="card">
+    <h2>Trasa w jednym pasku</h2>
+    <canvas id="strip" height="90"></canvas>
+  </section>
+
+  <section class="card">
+    <h2>Najdłuższe przerwy</h2>
+    <div class="zones" id="zones"></div>
+  </section>
+
+  <footer>Ping co 30 s (10 pakietów do 1.1.1.1) przez hotspot w telefonie. Pozycja z GPS telefonu, a bez GPS z rozkładu jazdy.
+    Stacje bazowe: wykaz pozwoleń UKE (pozwolenie nie oznacza, że stacja działa). Mapa © OpenStreetMap, OpenRailwayMap.
+    <a href="https://github.com/kprzybys/rail-coverage-pl">Dane, kod i metoda na GitHubie</a>.</footer>
 </div>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="trips.js"></script>
 <script>
-const map = L.map("map", { preferCanvas: true });
-const osm = L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", { maxZoom: 18,
-  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>' }).addTo(map);
-const rail = L.tileLayer("https://{s}.tiles.openrailwaymap.org/standard/{z}/{x}/{y}.png", { maxZoom: 18, opacity: .55,
-  attribution: '<a href="https://www.openrailwaymap.org/">OpenRailwayMap</a> (CC-BY-SA)' }).addTo(map);
 const css = n => getComputedStyle(document.documentElement).getPropertyValue("--" + n).trim();
-const PL = { good: "dobre", weak: "wahania", bad: "słabe", dead: "brak łącza", excluded: "pominięty (zakłócony)" };
-let layer = null, bts = null, ctl = null;
-function show(t) {
-  if (layer) layer.remove();
-  if (bts) bts.remove();
-  if (ctl) ctl.remove();
+const PL = { good: "dobre", weak: "wahania", bad: "słabe", dead: "brak łącza", excluded: "pominięty" };
+const map = L.map("map", { preferCanvas: true, zoomSnap: .25 });
+L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", { maxZoom: 18, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>' }).addTo(map);
+const rail = L.tileLayer("https://{s}.tiles.openrailwaymap.org/standard/{z}/{x}/{y}.png", { maxZoom: 18, opacity: .5, attribution: 'OpenRailwayMap (CC-BY-SA)' }).addTo(map);
+let T, layer, bts, ctl, train, playing = false, t0, t1, cur = 0, last = 0;
+const fmtT = ts => new Date(ts * 1000).toLocaleTimeString("pl-PL", { hour: "2-digit", minute: "2-digit" });
+const q = r => r.avg == null ? `strata ${r.loss}%` : `${Math.round(r.avg)} ms, strata ${r.loss}%`;
+
+function zonesOf(rows) {
+  const out = []; let z = null;
+  for (const r of rows) {
+    if (r.grade === "dead" || r.grade === "bad") { if (!z) out.push(z = { a: r, b: r, n: 0, dead: 0 }); z.b = r; z.n++; if (r.grade === "dead") z.dead++; }
+    else z = null;
+  }
+  out.forEach(z => z.dur = z.b.ts - z.a.ts + 30);
+  return out.sort((x, y) => y.dur - x.dur || y.dead - x.dead);
+}
+
+function show(i) {
+  T = TRIPS[i];
+  [layer, bts, ctl].forEach(x => x && x.remove());
+  document.getElementById("title").textContent = `${T.from} → ${T.to}`;
+  document.getElementById("sub").textContent = `${T.date} · ${T.train} · ${T.network}`;
+  const used = T.rows.filter(r => r.grade !== "excluded"), share = g => Math.round(100 * used.filter(r => r.grade === g).length / used.length);
+  const avgs = used.filter(r => r.avg != null).map(r => r.avg).sort((a, b) => a - b);
+  const zs = zonesOf(used);
+  document.getElementById("stats").innerHTML = [[share("good") + "%", "pomiarów z dobrym łączem"], [Math.round(avgs[avgs.length >> 1]) + " ms", "mediana pingu"],
+    [share("dead") + "%", "pomiarów bez łącza"], [zs.length, "słabych odcinków"]].map(([v, l]) => `<div><b>${v}</b><span>${l}</span></div>`).join("");
   layer = L.layerGroup().addTo(map);
   bts = L.layerGroup();
-  for (const s of t.sites) L.circleMarker([s.lat, s.lon], { radius: 2.5, stroke: false, fillOpacity: .35,
-    fillColor: s.op === "Orange" ? "#f07b16" : "#c2187a" }).bindTooltip(`${s.op} · ${s.place}<br>${s.bands.join(", ")}<br>pozwolenie UKE`).addTo(bts);
-  ctl = L.control.layers(null, { "Stacje bazowe (pozwolenia UKE)": bts, "OpenRailwayMap": rail }, { position: "topright" }).addTo(map);
-  L.polyline(t.stations.map(s => [s.lat, s.lon]), { color: "#8a9692", weight: 3, dashArray: "6 6" }).addTo(layer);
-  for (const s of t.stations) if (s.arr || s.dep) L.circleMarker([s.lat, s.lon], { radius: 5, color: "#18211f", weight: 2, fillColor: "#fff", fillOpacity: 1 })
+  for (const s of T.sites) L.circleMarker([s.lat, s.lon], { radius: 2.5, stroke: false, fillOpacity: .35, fillColor: s.op === "Orange" ? "#f07b16" : "#c2187a" })
+    .bindTooltip(`${s.op} · ${s.place}<br>${s.bands.join(", ")}<br>pozwolenie UKE`).addTo(bts);
+  ctl = L.control.layers(null, { "Stacje bazowe (pozwolenia UKE)": bts, "OpenRailwayMap": rail }).addTo(map);
+  if (T.track.length) L.polyline(T.track, { color: "#8a9692", weight: 3 }).addTo(layer);
+  for (const s of T.stations) if (s.arr || s.dep) L.circleMarker([s.lat, s.lon], { radius: 5, color: "#18211f", weight: 2, fillColor: "#fff", fillOpacity: 1 })
     .bindTooltip(`${s.name} ${s.arr || ""}${s.arr && s.dep ? "–" : ""}${s.dep || ""}`).addTo(layer);
-  for (const r of t.rows) {
-    const q = r.avg == null ? `strata ${r.loss}%` : `strata ${r.loss}% · ${Math.round(r.min)}/${Math.round(r.avg)}/${Math.round(r.max)} ms`;
-    L.circleMarker([r.lat, r.lon], { radius: r.grade === "good" ? 4 : 6, color: "#fff", weight: 1, fillColor: css(r.grade), fillOpacity: .95 })
-      .bindTooltip(`<b>${r.time}</b> · ${PL[r.grade]}<br>${q}<br>${r.where} · pozycja: ${r.pos_src}` + (r.excluded ? `<br><i>${r.excluded}</i>` : "")).addTo(layer);
-  }
-  map.fitBounds(L.latLngBounds(t.stations.map(s => [s.lat, s.lon])).pad(.05));
+  for (const r of T.rows) L.circleMarker([r.lat, r.lon], { radius: r.grade === "good" ? 4 : 6, color: "#fff", weight: 1, fillColor: css(r.grade), fillOpacity: .95 })
+    .bindTooltip(`<b>${r.time}</b> · ${PL[r.grade]}<br>${q(r)}<br>${r.where}` + (r.excluded ? `<br><i>${r.excluded}</i>` : "")).addTo(layer);
+  train = L.circleMarker([T.rows[0].lat, T.rows[0].lon], { radius: 10, color: css("train"), weight: 3, fillColor: "#fff", fillOpacity: 1 }).addTo(layer);
+  map.fitBounds(L.latLngBounds(T.stations.map(s => [s.lat, s.lon])).pad(.04));
+  t0 = T.rows[0].ts; t1 = T.rows[T.rows.length - 1].ts; cur = t0;
+  document.getElementById("zones").innerHTML = zs.slice(0, 6).map((z, k) => `<div class="zone ${z.dead ? "" : "bad"}" data-ts="${z.a.ts}">
+    <b>${Math.round(z.dur / 60 * 10) / 10} min</b> ${z.dead ? "bez łącza" : "słabo"}<p>${z.a.time.slice(0, 5)} · ${z.a.where}</p>
+    <p>km ${Math.round(z.a.km)} · najbliższy BTS (UKE) ${z.a.site_km ?? "–"} km</p></div>`).join("");
+  document.querySelectorAll(".zone").forEach(el => el.onclick = () => { setT(+el.dataset.ts); map.setView(train.getLatLng(), 11); });
+  drawStrip(); setT(t0);
 }
+
+function rowAt(t) { let i = T.rows.findIndex(r => r.ts > t); if (i < 0) i = T.rows.length; return Math.max(0, i - 1); }
+function setT(t) {
+  cur = Math.max(t0, Math.min(t1, t));
+  const i = rowAt(cur), a = T.rows[i], b = T.rows[Math.min(i + 1, T.rows.length - 1)], f = b.ts > a.ts ? (cur - a.ts) / (b.ts - a.ts) : 0;
+  train.setLatLng([a.lat + (b.lat - a.lat) * f, a.lon + (b.lon - a.lon) * f]).setStyle({ fillColor: css(a.grade) });
+  document.getElementById("seek").value = Math.round((cur - t0) / (t1 - t0) * 1000);
+  document.getElementById("now").textContent = `${fmtT(cur)} · ${a.where} · ${PL[a.grade]}, ${q(a)}`;
+  drawChart();
+}
+
+function drawChart() {
+  const c = document.getElementById("chart"), dpr = devicePixelRatio || 1, w = c.clientWidth, h = 150;
+  c.width = w * dpr; c.height = h * dpr; const g = c.getContext("2d"); g.scale(dpr, dpr); g.clearRect(0, 0, w, h);
+  const X = t => 40 + (t - t0) / (t1 - t0) * (w - 50), Y = ms => 10 + (1 - (Math.log10(Math.max(ms, 10)) - 1) / (Math.log10(5000) - 1)) * (h - 30);
+  g.font = "11px system-ui"; g.fillStyle = css("muted"); g.strokeStyle = css("line");
+  for (const v of [20, 100, 300, 1000, 3000]) { g.beginPath(); g.moveTo(40, Y(v)); g.lineTo(w - 10, Y(v)); g.stroke(); g.fillText(v, 4, Y(v) + 4); }
+  for (const r of T.rows) {
+    g.fillStyle = css(r.grade);
+    if (r.avg == null) g.fillRect(X(r.ts) - 1.5, 10, 3, h - 30);
+    else { g.beginPath(); g.arc(X(r.ts), Y(r.avg), r.grade === "good" ? 2 : 3, 0, 7); g.fill(); }
+  }
+  for (let k = Math.ceil(t0 / 1800) * 1800; k <= t1; k += 1800) { g.fillStyle = css("muted"); g.fillText(fmtT(k), X(k) - 14, h - 4); }
+  g.strokeStyle = css("train"); g.lineWidth = 2; g.beginPath(); g.moveTo(X(cur), 6); g.lineTo(X(cur), h - 18); g.stroke(); g.lineWidth = 1;
+}
+
+function drawStrip() {
+  const c = document.getElementById("strip"), dpr = devicePixelRatio || 1, w = c.clientWidth, h = 90;
+  c.width = w * dpr; c.height = h * dpr; const g = c.getContext("2d"); g.scale(dpr, dpr); g.clearRect(0, 0, w, h);
+  const KM = T.stations[T.stations.length - 1].km, X = k => 12 + k / KM * (w - 24);
+  g.fillStyle = css("line"); g.fillRect(12, 18, w - 24, 22);
+  for (const r of T.rows) { g.fillStyle = css(r.grade); g.fillRect(X(r.km) - 1, 18, Math.max(2, (w - 24) / KM * 1.2), 22); }
+  g.font = "11px system-ui"; g.textAlign = "center";
+  const named = T.stations.filter(s => s.arr || s.dep).filter(s => !/Zielone|Centralna|Zachodnia/.test(s.name));
+  for (const s of named) {
+    g.fillStyle = css("fg"); g.fillRect(X(s.km) - 1, 42, 2, 8);
+    g.textAlign = s.km < 15 ? "left" : s.km > KM - 15 ? "right" : "center";
+    g.fillText(s.name.replace(" Główny", "").replace(" Wschodnia", " Wsch.").replace(" Południe", " Pd.").replace(" Północ", " Pn."), X(s.km), 64);
+    g.fillStyle = css("muted"); g.fillText(`km ${Math.round(s.km)}`, X(s.km), 78);
+  }
+}
+
+let raf;
+function loop(ts) {
+  if (!playing) return;
+  const dt = (ts - last) / 1000; last = ts;
+  setT(cur + dt * (t1 - t0) / +document.getElementById("speed").value);
+  if (cur >= t1) toggle(false); else raf = requestAnimationFrame(loop);
+}
+function toggle(on) {
+  playing = on ?? !playing; document.getElementById("play").textContent = playing ? "❚❚ Pauza" : "▶ Odtwórz";
+  if (playing) { if (cur >= t1) cur = t0; last = performance.now(); raf = requestAnimationFrame(loop); }
+}
+document.getElementById("play").onclick = () => toggle();
+document.getElementById("seek").oninput = e => setT(t0 + e.target.value / 1000 * (t1 - t0));
+addEventListener("resize", () => { drawChart(); drawStrip(); });
 const sel = document.getElementById("trip");
-TRIPS.forEach((t, i) => sel.add(new Option(t.title, i)));
-sel.onchange = () => show(TRIPS[sel.value]);
-show(TRIPS[0]);
+TRIPS.forEach((t, i) => sel.add(new Option(`${t.date} · ${t.train} ${t.from} → ${t.to}`, i)));
+sel.onchange = () => show(+sel.value);
+show(0);
 </script>
 </body>
 </html>

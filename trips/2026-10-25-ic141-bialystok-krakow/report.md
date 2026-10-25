@@ -6,9 +6,9 @@ Pomiar jakości mobilnego internetu w pociągu: hotspot iPhone, hotspot Wi-Fi 2,
 
 ## Najważniejsze liczby
 
-- pomiarów: **408** (+36 pominiętych jako zakłócone)
-- dobre łącze: **69%** pomiarów, wahania 16%, słabe 8%, brak łącza 7%
-- mediana średniego pingu: **44 ms**, 90. percentyl: 158 ms
+- pomiarów: **458** (+36 pominiętych jako zakłócone)
+- dobre łącze: **70%** pomiarów, wahania 16%, słabe 7%, brak łącza 6%
+- mediana średniego pingu: **42 ms**, 90. percentyl: 144 ms
 - odcinków słabych lub bez łącza: **36**
 
 ## Odcinki trasy
@@ -20,7 +20,7 @@ Pomiar jakości mobilnego internetu w pociągu: hotspot iPhone, hotspot Wi-Fi 2,
 | Rail Baltica (linia 6) | 79 | 61% | 16% | 46 ms |
 | Węzeł warszawski | 83 | 72% | 5% | 41 ms |
 | CMK (linia 4) | 153 | 64% | 20% | 47 ms |
-| CMK płd. i linia 8 do Krakowa | 93 | 81% | 14% | 41 ms |
+| CMK płd. i linia 8 do Krakowa | 143 | 82% | 9% | 37 ms |
 
 ## Martwe i słabe strefy
 
@@ -78,6 +78,7 @@ Odległość liczona od szacowanej pozycji pociągu do najbliższej lokalizacji 
 - Od 20:40 przyjęto opóźnienie 2 min 20 s (obserwacja: odjazd z Opoczna Południe zgłoszony przez pasażera).
 - Od 21:09 przyjęto opóźnienie 2 min 13 s (obserwacja: odjazd z Włoszczowy Północ zgłoszony przez pasażera).
 - Od 21:45 przyjęto opóźnienie 1 min 44 s (obserwacja: postój w Miechowie zgłoszony przez pasażera).
+- Od 21:59 przyjęto opóźnienie 1 min 56 s (obserwacja: odjazd z Miechowa zgłoszony przez pasażera).
 - Odpowiedź później niż 2 s liczy się jako strata.
 - Bez GPS pozycja jest liczona przy stałej prędkości między postojami, po prostej między stacjami; błąd sięga kilku km.
 - Jeden telefon, jedna sieć, jeden przejazd: to obserwacja, nie pomiar referencyjny.
@@ -91,3 +92,4 @@ Odległość liczona od szacowanej pozycji pociągu do najbliższej lokalizacji 
 - 21:09: potwierdzenie pasażera: odjazd z Włoszczowy Północ
 - 21:39: pasażer: hotspot znów wyłączył się na chwilę (potwierdzone w logu NetworkManager)
 - 21:45: potwierdzenie pasażera: postój w Miechowie
+- 21:59: potwierdzenie pasażera: odjazd z Miechowa

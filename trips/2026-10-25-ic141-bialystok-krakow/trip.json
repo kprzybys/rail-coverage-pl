@@ -161,6 +161,11 @@
       "since": "2026-10-25T21:45:44+01:00",
       "seconds": 104,
       "source": "obserwacja: postój w Miechowie zgłoszony przez pasażera"
+    },
+    {
+      "since": "2026-10-25T21:59:56+01:00",
+      "seconds": 116,
+      "source": "obserwacja: odjazd z Miechowa zgłoszony przez pasażera"
     }
   ],
   "excluded": [
@@ -208,6 +213,10 @@
     {
       "time": "2026-10-25T21:45:44+01:00",
       "text": "potwierdzenie pasażera: postój w Miechowie"
+    },
+    {
+      "time": "2026-10-25T21:59:56+01:00",
+      "text": "potwierdzenie pasażera: odjazd z Miechowa"
     }
   ],
   "gps": {

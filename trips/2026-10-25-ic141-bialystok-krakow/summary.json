@@ -1,15 +1,15 @@
 {
  "all": {
-  "n": 408,
+  "n": 458,
   "share": {
-   "good": 0.689,
+   "good": 0.705,
    "weak": 0.162,
-   "bad": 0.083,
-   "dead": 0.066
+   "bad": 0.074,
+   "dead": 0.059
   },
-  "median_ms": 44,
-  "p90_ms": 158,
-  "mean_loss": 8.7
+  "median_ms": 42,
+  "p90_ms": 144,
+  "mean_loss": 7.7
  },
  "excluded_n": 36,
  "sections": {
@@ -50,16 +50,16 @@
    "mean_loss": 13.1
   },
   "CMK płd. i linia 8 do Krakowa": {
-   "n": 93,
+   "n": 143,
    "share": {
-    "good": 0.806,
-    "weak": 0.054,
-    "bad": 0.065,
-    "dead": 0.075
+    "good": 0.818,
+    "weak": 0.091,
+    "bad": 0.042,
+    "dead": 0.049
    },
-   "median_ms": 41,
+   "median_ms": 37,
    "p90_ms": 65,
-   "mean_loss": 9.9
+   "mean_loss": 6.5
   }
  },
  "zones": 36

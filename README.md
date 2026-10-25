@@ -8,7 +8,9 @@ GPS track or, without GPS, from the train timetable. Base stations near the line
 from the official UKE radio permit lists, so you can see whether the dead zones line up
 with gaps in the network.
 
-![Ping along the route](trips/2026-10-25-ic141-bialystok-krakow/figures/timeline.png)
+![Route strip: connection quality km by km](trips/2026-10-25-ic141-bialystok-krakow/figures/strip.png)
+
+![Replay of the trip](trips/2026-10-25-ic141-bialystok-krakow/figures/replay.gif)
 
 **Map:** https://kprzybys.github.io/rail-coverage-pl/ · **First trip report (PL):** [IC 141 Białystok → Kraków](trips/2026-10-25-ic141-bialystok-krakow/report.md)
 
@@ -32,7 +34,9 @@ with gaps in the network.
 | Import the phone's GPS track, clipped station to station | `python -m railcov.gpx` | `track.gpx` |
 | Base stations within 8 km of the route (UKE) | `python -m railcov.bts` | `bts.json` |
 | Charts and report | `python -m railcov.report` | `figures/*.png`, `report.md` |
-| Map of all trips | `python -m railcov.site` | `site/` (GitHub Pages) |
+| Route strip and replay GIF for sharing | `python -m railcov.promo` | `figures/strip.png`, `figures/replay.gif` |
+| Website: replay, chart, strip, longest gaps | `python -m railcov.site` | `site/` (GitHub Pages) |
+| All of the above after a trip | `./finish.sh trips/<trip-id> [recording.gpx]` | |
 
 ```bash
 pip install -r requirements.txt
