@@ -1,0 +1,11 @@
+2026-10-27T21:23:00+01:00
+IntercityWiFi (IC 4121 Daszyński), tracepath -n 1.1.1.1:
+ 1  172.16.0.1       2 ms    router w wagonie (Wi-Fi)
+ 2  10.195.50.1     37 ms    backhaul komórkowy (CGNAT, operator niewidoczny)
+ 3  77.79.209.169   57 ms    brama Atman (egress, to samo /24 co publiczne IP 77.79.209.170)
+ 4  217.17.39.113   56 ms    Atman
+ 5  217.17.33.57    38 ms    Atman
+ 6  212.91.0.28     52 ms    peering Atman
+ 8  162.158.100.7   61 ms    Cloudflare (1.1.1.1), colo WAW
+Wniosek: laptop -> router wagonu -> modem komórkowy (tunel) -> Atman (Warszawa) -> internet.
+Floor latencji ~35 ms to łącze komórkowe (hop 2); router dokłada ~2 ms.

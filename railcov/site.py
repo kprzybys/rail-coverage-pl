@@ -10,7 +10,7 @@ import shutil
 from .data import load
 
 ROW_KEYS = ("time", "ts", "km", "loss", "min", "avg", "max", "lat", "lon", "where", "grade", "pos_src", "excluded",
-            "site_km", "site_op", "site_place")
+            "site_km", "site_op", "site_place", "uplink_op")
 
 
 def main():
@@ -24,6 +24,7 @@ def main():
         trips.append({
             "date": m["date"], "train": f"{m['train']['number']} {m['train']['name']}", "from": m["from"], "to": m["to"],
             "network": m["network"]["operator"],
+            "uplink": any(r["uplink_op"] for r in rows),
             "stations": [{k: (round(s[k], 2) if k == "km" else s[k]) for k in ("name", "lat", "lon", "km", "arr", "dep")} for s in trip.stops],
             "rows": [{k: r[k] for k in ROW_KEYS} for r in rows],
             "sites": [{k: s[k] for k in ("lat", "lon", "op", "place", "bands")} for s in sites],

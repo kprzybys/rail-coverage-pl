@@ -1,0 +1,107 @@
+{
+ "id": "2026-10-27-ic4121-warszawa-bialystok",
+ "date": "2026-10-27",
+ "utc_offset": "+01:00",
+ "train": {
+  "number": "IC 4121",
+  "name": "Daszyński",
+  "operator": "PKP Intercity"
+ },
+ "from": "Warszawa Wschodnia",
+ "to": "Białystok",
+ "network": {
+  "operator": "PKP Intercity IntercityWiFi: router Peplink, bonding kilku SIM, egress przez centrum danych Atman",
+  "brand": "IntercityWiFi (inny system niż Hotspot_IC/Passengera w Tatrach)",
+  "device": "router Peplink (MAC d4:13:f8), do 4 modemów/SIM naraz, Wi-Fi 2,4 GHz, ok. -70 dBm",
+  "phone_placement": "nie dotyczy (laptop na Wi-Fi pociągu)"
+ },
+ "collector": {
+  "host": "laptop",
+  "target": "1.1.1.1",
+  "method": "ping -c 10 -i 0.3 -W 2 co 30 s",
+  "note": "odpowiedź później niż 2 s liczy się jako strata; IntercityWiFi (Peplink) bonduje kilka kart SIM w jeden tunel do huba Atman, więc z publicznego IP ani z pojedynczego pingu nie wynika operator komórkowy backhaulu — podziału na operatorów dla tego przejazdu nie ma"
+ },
+ "timetable_source": "https://www.europodroze.pl/pociag/daszynski/ic-4121 (pociąg Bielsko-Biała Główna → Białystok; mierzony odcinek od Warszawy Wschodniej)",
+ "timetable": [
+  [
+   "Warszawa Wschodnia",
+   "21:02",
+   "21:06"
+  ],
+  [
+   "Zielonka",
+   null,
+   null
+  ],
+  [
+   "Wołomin",
+   "21:23",
+   "21:24"
+  ],
+  [
+   "Tłuszcz",
+   "21:33",
+   "21:34"
+  ],
+  [
+   "Łochów",
+   "21:44",
+   "21:45"
+  ],
+  [
+   "Małkinia",
+   "21:59",
+   "22:00"
+  ],
+  [
+   "Czyżew",
+   "22:11",
+   "22:12"
+  ],
+  [
+   "Szepietowo",
+   "22:20",
+   "22:21"
+  ],
+  [
+   "Łapy",
+   "22:33",
+   "22:34"
+  ],
+  [
+   "Białystok Zielone Wzgórza",
+   "22:44",
+   "22:45"
+  ],
+  [
+   "Białystok",
+   "22:49",
+   null
+  ]
+ ],
+ "sections": [
+  {
+   "name": "Węzeł warszawski",
+   "from": "Warszawa Wschodnia",
+   "to": "Zielonka"
+  },
+  {
+   "name": "Rail Baltica (linia 6)",
+   "from": "Zielonka",
+   "to": "Białystok"
+  }
+ ],
+ "delays": [
+  {
+   "since": "2026-10-27T21:06:00+01:00",
+   "seconds": 300,
+   "source": "zgłoszone przez pasażera: opóźnienie ok. 5 min"
+  }
+ ],
+ "excluded": [],
+ "observations": [
+  "przesiadka z EIC 3150 Tatry (Warszawa Wschodnia 20:31)",
+  "opóźnienie ok. 5 min zgłoszone przez pasażera (odjazd z Wschodniej plan 21:06)",
+  "21:13 przełączenie na IntercityWiFi (inny system niż w Tatrach); egress przez Atman, operator komórkowy niewidoczny z IP"
+ ]
+}

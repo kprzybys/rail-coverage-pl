@@ -37,6 +37,25 @@ right after a long loss of cellular data. The laptop's NetworkManager log
 about a minute after reconnecting, are excluded: they measure the phone, not the network.
 Check `journalctl -u NetworkManager` after every trip.
 
+## On-board Wi-Fi: two architectures
+
+A trip can run on the phone hotspot or on the train's own Wi-Fi, and the on-board Wi-Fi
+is not one thing. Two systems seen so far on PKP Intercity differ in what we can measure:
+
+- **Passengera (`Hotspot_IC`).** Traffic egresses straight through the operators' own
+  networks, and the router load-balances several SIMs, so the public IP of the uplink
+  (sampled every 30 s by `uplink-logger.sh` into uplink.csv) reveals which operator carried each
+  moment — e.g. Orange and T-Mobile alternating. This is where the operator breakdown works.
+- **IntercityWiFi.** All traffic is tunnelled over a cellular modem to a data-centre
+  gateway (observed: Atman, Warsaw) and egresses there, so the public IP is the aggregator's
+  and the mobile operator is hidden behind CGNAT (`traceroute.txt` in the trip folder). The
+  operator breakdown is correctly omitted. A traceroute also shows the latency floor: the
+  in-car Wi-Fi hop adds ~2 ms, the cellular backhaul ~35 ms.
+
+`uplink.py` resolves each uplink IP to an operator (built-in ranges, then a cached RDAP
+lookup) and freezes the result into `uplink-ops.json` per trip, so a published trip rebuilds
+offline. Unknown or tunnelled egress resolves to "inny" and hides the operator view.
+
 ## Limits
 
 - One phone, one network, one trip per folder. Treat a single trip as an observation.

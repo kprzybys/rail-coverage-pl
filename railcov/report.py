@@ -165,6 +165,20 @@ def write_report(trip, rows, summary, path):
         a, b = z["from"]["time"][:5], z["to"]["time"][:5]
         span = a if a == b else f"{a}–{b}"
         L.append(f"| {span} | {z['from']['where']} (km {z['from']['km']:.0f}) | {q} | {w['site_op']} {w['site_km']} km ({w['site_place']}) |")
+    tagged = [r for r in rows if r["grade"] != "excluded" and r["uplink_op"]]
+    if tagged:
+        L += ["", "## Którym operatorem szło łącze", "",
+              "Pokładowe Wi-Fi Intercity wychodzi do internetu kilkoma kartami SIM naraz; router przełącza ruch między "
+              "operatorami. Co 30 s sprawdzamy publiczny adres IP łącza, czyli który modem obsługiwał ruch w tym momencie "
+              "(próbka, nie przypisanie każdego pingu).", "",
+              "| Operator | Udział trasy | Mediana pingu | Słabo lub bez łącza |", "|---|---:|---:|---:|"]
+        ops = sorted({r["uplink_op"] for r in tagged}, key=lambda o: -sum(x["uplink_op"] == o for x in tagged))
+        for o in ops:
+            rs = [r for r in tagged if r["uplink_op"] == o]
+            avgs = sorted(r["avg"] for r in rs if r["avg"] is not None)
+            med = f"{round(statistics.median(avgs))} ms" if avgs else "–"
+            dd = 100 * sum(r["grade"] in ("bad", "dead") for r in rs) / len(rs)
+            L.append(f"| {o} | {100 * len(rs) / len(tagged):.0f}% | {med} | {dd:.0f}% |")
     L += ["", "## Stacje bazowe a jakość", "", "![BTS](figures/bts.png)", "",
           "Odległość liczona od szacowanej pozycji pociągu do najbliższej lokalizacji z pozwoleniem UKE (LTE 800/1800/2100/2600, 5G 2100). "
           "Pozwolenie nie oznacza, że stacja działa ani że świeci w stronę torów.", "",
@@ -177,7 +191,8 @@ def write_report(trip, rows, summary, path):
           "- Bez GPS pozycja jest liczona przy stałej prędkości między postojami, po prostej między stacjami; błąd sięga kilku km.",
           "- Jeden telefon, jedna sieć, jeden przejazd: to obserwacja, nie pomiar referencyjny.", ""]
     if m.get("observations"):
-        L += ["## Dziennik podróży", ""] + [f"- {o['time'][11:16]}: {o['text']}" for o in m["observations"]] + [""]
+        obs = [f"- {o['time'][11:16]}: {o['text']}" if isinstance(o, dict) else f"- {o}" for o in m["observations"]]
+        L += ["## Dziennik podróży", ""] + obs + [""]
     open(path, "w").write("\n".join(L))
 
 

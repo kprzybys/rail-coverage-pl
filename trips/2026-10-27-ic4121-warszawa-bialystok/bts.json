@@ -1,0 +1,11973 @@
+{
+"source": "UKE, wykaz pozwoleń radiowych, stan na 2026-09-25",
+"sites": [
+{
+"lat": 52.22972,
+"lon": 20.97778,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.63
+},
+{
+"lat": 52.23028,
+"lon": 21.01056,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.7
+},
+{
+"lat": 52.23222,
+"lon": 21.01167,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.51
+},
+{
+"lat": 52.23056,
+"lon": 21.01222,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.59
+},
+{
+"lat": 52.23028,
+"lon": 20.98583,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.11
+},
+{
+"lat": 52.23306,
+"lon": 21.0825,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 2.9
+},
+{
+"lat": 52.23139,
+"lon": 20.98528,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.09
+},
+{
+"lat": 52.23194,
+"lon": 20.98778,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.91
+},
+{
+"lat": 52.22861,
+"lon": 20.98278,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.38
+},
+{
+"lat": 52.24472,
+"lon": 21.025,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 2.01
+},
+{
+"lat": 52.24694,
+"lon": 20.95833,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 6.43
+},
+{
+"lat": 52.69611,
+"lon": 22.23778,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Zuzela",
+"dist_km": 6.55
+},
+{
+"lat": 52.23583,
+"lon": 20.97889,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.3
+},
+{
+"lat": 52.23278,
+"lon": 20.99278,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.56
+},
+{
+"lat": 52.23861,
+"lon": 21.14444,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.32
+},
+{
+"lat": 52.53667,
+"lon": 21.59806,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Strachów",
+"dist_km": 3.61
+},
+{
+"lat": 52.39222,
+"lon": 21.19944,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Ciemne",
+"dist_km": 5.64
+},
+{
+"lat": 52.3975,
+"lon": 21.28139,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Nowy Kraszew",
+"dist_km": 2.93
+},
+{
+"lat": 52.34111,
+"lon": 21.05639,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 7.06
+},
+{
+"lat": 52.21806,
+"lon": 21.09972,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.92
+},
+{
+"lat": 52.2575,
+"lon": 21.05861,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 0.19
+},
+{
+"lat": 52.2325,
+"lon": 20.99167,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.65
+},
+{
+"lat": 52.20417,
+"lon": 21.04806,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.25
+},
+{
+"lat": 52.19389,
+"lon": 21.04722,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 6.39
+},
+{
+"lat": 52.28306,
+"lon": 20.95389,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 7.56
+},
+{
+"lat": 52.28389,
+"lon": 21.06222,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 2.16
+},
+{
+"lat": 52.29222,
+"lon": 21.04861,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.47
+},
+{
+"lat": 52.29361,
+"lon": 21.02833,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.52
+},
+{
+"lat": 52.24694,
+"lon": 21.06111,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 0.78
+},
+{
+"lat": 52.23111,
+"lon": 20.985,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.12
+},
+{
+"lat": 52.49889,
+"lon": 21.62361,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Nowy Jadów",
+"dist_km": 0.83
+},
+{
+"lat": 52.23389,
+"lon": 21.0,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.07
+},
+{
+"lat": 52.24917,
+"lon": 20.99306,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.05
+},
+{
+"lat": 52.35083,
+"lon": 21.15611,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Marki",
+"dist_km": 3.59
+},
+{
+"lat": 52.45111,
+"lon": 21.49972,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Chrzęsne",
+"dist_km": 0.57
+},
+{
+"lat": 52.22889,
+"lon": 21.00028,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.35
+},
+{
+"lat": 52.28083,
+"lon": 21.07083,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 1.51
+},
+{
+"lat": 52.20722,
+"lon": 20.96972,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 7.47
+},
+{
+"lat": 52.23444,
+"lon": 21.12861,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.92
+},
+{
+"lat": 52.27528,
+"lon": 21.02806,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.05
+},
+{
+"lat": 52.26472,
+"lon": 20.99917,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.9
+},
+{
+"lat": 52.24083,
+"lon": 21.02972,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 1.95
+},
+{
+"lat": 52.24778,
+"lon": 21.01194,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 2.79
+},
+{
+"lat": 52.21889,
+"lon": 21.02639,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.03
+},
+{
+"lat": 52.29111,
+"lon": 21.12111,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Ząbki",
+"dist_km": 0.02
+},
+{
+"lat": 52.30944,
+"lon": 21.15167,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Zielonka",
+"dist_km": 0.09
+},
+{
+"lat": 52.22056,
+"lon": 20.96278,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 7.01
+},
+{
+"lat": 52.22778,
+"lon": 20.98556,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.26
+},
+{
+"lat": 52.26833,
+"lon": 21.02056,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 2.85
+},
+{
+"lat": 52.21306,
+"lon": 20.95583,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 7.84
+},
+{
+"lat": 52.25833,
+"lon": 20.98528,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.63
+},
+{
+"lat": 52.19528,
+"lon": 20.98194,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 7.87
+},
+{
+"lat": 52.33056,
+"lon": 21.26472,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Wołomin",
+"dist_km": 2.49
+},
+{
+"lat": 52.36944,
+"lon": 21.185,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Nadma",
+"dist_km": 4.14
+},
+{
+"lat": 52.26167,
+"lon": 21.03083,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 1.84
+},
+{
+"lat": 52.22972,
+"lon": 20.98833,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.99
+},
+{
+"lat": 52.23333,
+"lon": 20.98389,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.09
+},
+{
+"lat": 52.18389,
+"lon": 21.0125,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 7.96
+},
+{
+"lat": 52.22583,
+"lon": 21.00556,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.28
+},
+{
+"lat": 52.22583,
+"lon": 20.94278,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 8.0
+},
+{
+"lat": 52.2325,
+"lon": 20.98,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.37
+},
+{
+"lat": 52.23278,
+"lon": 20.98028,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.34
+},
+{
+"lat": 52.26306,
+"lon": 21.04528,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 1.26
+},
+{
+"lat": 52.26917,
+"lon": 21.05139,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 1.47
+},
+{
+"lat": 52.27556,
+"lon": 21.05583,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 1.78
+},
+{
+"lat": 52.2175,
+"lon": 21.01917,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.4
+},
+{
+"lat": 52.19889,
+"lon": 21.04722,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.84
+},
+{
+"lat": 52.4675,
+"lon": 21.31889,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Trojany",
+"dist_km": 7.82
+},
+{
+"lat": 52.23389,
+"lon": 20.9975,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.22
+},
+{
+"lat": 52.23972,
+"lon": 21.03167,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 1.93
+},
+{
+"lat": 52.24667,
+"lon": 21.04306,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 0.84
+},
+{
+"lat": 52.25472,
+"lon": 21.035,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 1.23
+},
+{
+"lat": 52.21639,
+"lon": 20.98722,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.91
+},
+{
+"lat": 52.26111,
+"lon": 20.97639,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.28
+},
+{
+"lat": 52.20222,
+"lon": 21.03528,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.58
+},
+{
+"lat": 52.265,
+"lon": 21.03889,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 1.71
+},
+{
+"lat": 52.19028,
+"lon": 21.04528,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 6.8
+},
+{
+"lat": 52.21306,
+"lon": 21.0275,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.59
+},
+{
+"lat": 52.20361,
+"lon": 21.01333,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.94
+},
+{
+"lat": 52.18694,
+"lon": 21.06444,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 7.2
+},
+{
+"lat": 52.315,
+"lon": 21.06306,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.64
+},
+{
+"lat": 52.22444,
+"lon": 21.00694,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.31
+},
+{
+"lat": 52.23722,
+"lon": 21.11556,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.09
+},
+{
+"lat": 52.35417,
+"lon": 21.19972,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Kobyłka",
+"dist_km": 2.18
+},
+{
+"lat": 52.24306,
+"lon": 21.16167,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.76
+},
+{
+"lat": 52.23194,
+"lon": 20.97806,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.51
+},
+{
+"lat": 52.23417,
+"lon": 20.98417,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.03
+},
+{
+"lat": 52.23111,
+"lon": 20.99222,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.68
+},
+{
+"lat": 52.23778,
+"lon": 21.00833,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.37
+},
+{
+"lat": 52.24944,
+"lon": 21.09889,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 2.33
+},
+{
+"lat": 52.23389,
+"lon": 20.99667,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.27
+},
+{
+"lat": 52.21917,
+"lon": 20.96639,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 6.87
+},
+{
+"lat": 52.22917,
+"lon": 20.98444,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.25
+},
+{
+"lat": 52.43583,
+"lon": 21.45139,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Tłuszcz",
+"dist_km": 0.17
+},
+{
+"lat": 52.22917,
+"lon": 21.02333,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.17
+},
+{
+"lat": 52.23611,
+"lon": 20.97972,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.24
+},
+{
+"lat": 52.23083,
+"lon": 20.98111,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.37
+},
+{
+"lat": 52.22167,
+"lon": 21.01083,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.36
+},
+{
+"lat": 52.22111,
+"lon": 20.97333,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 6.36
+},
+{
+"lat": 52.34528,
+"lon": 21.16472,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Kobyłka",
+"dist_km": 2.75
+},
+{
+"lat": 52.25667,
+"lon": 21.22806,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 7.73
+},
+{
+"lat": 52.26028,
+"lon": 21.17806,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.12
+},
+{
+"lat": 52.23472,
+"lon": 20.99389,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.4
+},
+{
+"lat": 52.24139,
+"lon": 21.09111,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 2.62
+},
+{
+"lat": 52.23917,
+"lon": 21.13861,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.01
+},
+{
+"lat": 52.22611,
+"lon": 21.05778,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 2.84
+},
+{
+"lat": 52.42389,
+"lon": 21.27611,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Rasztów",
+"dist_km": 5.53
+},
+{
+"lat": 52.26972,
+"lon": 21.12472,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 1.88
+},
+{
+"lat": 52.18361,
+"lon": 21.02306,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 7.78
+},
+{
+"lat": 52.27139,
+"lon": 20.97278,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.85
+},
+{
+"lat": 52.22556,
+"lon": 21.01528,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.83
+},
+{
+"lat": 52.205,
+"lon": 21.00889,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.94
+},
+{
+"lat": 52.255,
+"lon": 20.98528,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.59
+},
+{
+"lat": 52.24833,
+"lon": 21.05306,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 0.36
+},
+{
+"lat": 52.245,
+"lon": 20.99167,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.2
+},
+{
+"lat": 52.23583,
+"lon": 21.08611,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 2.84
+},
+{
+"lat": 52.20972,
+"lon": 21.0425,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.68
+},
+{
+"lat": 52.23917,
+"lon": 20.99528,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.13
+},
+{
+"lat": 52.23,
+"lon": 21.00389,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.08
+},
+{
+"lat": 52.21806,
+"lon": 20.98306,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 6.01
+},
+{
+"lat": 52.18139,
+"lon": 21.05444,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 7.76
+},
+{
+"lat": 52.23833,
+"lon": 21.00472,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.56
+},
+{
+"lat": 52.20139,
+"lon": 20.99833,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 6.66
+},
+{
+"lat": 52.24528,
+"lon": 21.09,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 2.26
+},
+{
+"lat": 52.22111,
+"lon": 20.98917,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.47
+},
+{
+"lat": 52.24111,
+"lon": 20.96583,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 6.01
+},
+{
+"lat": 52.32111,
+"lon": 21.05639,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.44
+},
+{
+"lat": 52.23361,
+"lon": 20.98611,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.94
+},
+{
+"lat": 52.22611,
+"lon": 20.98944,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.13
+},
+{
+"lat": 52.26889,
+"lon": 20.98611,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.9
+},
+{
+"lat": 52.205,
+"lon": 21.03806,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.24
+},
+{
+"lat": 52.23028,
+"lon": 20.97389,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.85
+},
+{
+"lat": 52.2,
+"lon": 21.05111,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.7
+},
+{
+"lat": 52.33194,
+"lon": 21.19528,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Kobyłka",
+"dist_km": 0.35
+},
+{
+"lat": 52.27417,
+"lon": 20.99806,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.46
+},
+{
+"lat": 52.27972,
+"lon": 21.11278,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Ząbki",
+"dist_km": 0.52
+},
+{
+"lat": 52.34611,
+"lon": 21.22083,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Wołomin",
+"dist_km": 0.63
+},
+{
+"lat": 52.21222,
+"lon": 20.97194,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 7.0
+},
+{
+"lat": 52.23778,
+"lon": 20.99556,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.16
+},
+{
+"lat": 52.25861,
+"lon": 20.99528,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.97
+},
+{
+"lat": 52.27417,
+"lon": 20.99722,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.51
+},
+{
+"lat": 52.33111,
+"lon": 21.11056,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Marki",
+"dist_km": 3.74
+},
+{
+"lat": 52.30972,
+"lon": 21.09583,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Marki",
+"dist_km": 2.7
+},
+{
+"lat": 52.28361,
+"lon": 21.07028,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 1.76
+},
+{
+"lat": 52.30889,
+"lon": 21.14556,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Zielonka",
+"dist_km": 0.32
+},
+{
+"lat": 52.30361,
+"lon": 21.05861,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.92
+},
+{
+"lat": 52.27556,
+"lon": 20.95861,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 6.91
+},
+{
+"lat": 52.26694,
+"lon": 20.94222,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 7.69
+},
+{
+"lat": 52.23667,
+"lon": 20.99778,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.07
+},
+{
+"lat": 52.2575,
+"lon": 20.98611,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.56
+},
+{
+"lat": 52.23306,
+"lon": 21.02639,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 2.71
+},
+{
+"lat": 52.2075,
+"lon": 21.02944,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.12
+},
+{
+"lat": 52.24444,
+"lon": 21.00111,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.58
+},
+{
+"lat": 52.23528,
+"lon": 21.00833,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.5
+},
+{
+"lat": 52.22,
+"lon": 21.01528,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.31
+},
+{
+"lat": 52.23306,
+"lon": 21.00167,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.02
+},
+{
+"lat": 52.20694,
+"lon": 20.98556,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 6.72
+},
+{
+"lat": 52.26111,
+"lon": 21.04583,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 1.07
+},
+{
+"lat": 52.22556,
+"lon": 21.14917,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 6.6
+},
+{
+"lat": 52.28389,
+"lon": 20.96833,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 6.75
+},
+{
+"lat": 52.21778,
+"lon": 21.01361,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.58
+},
+{
+"lat": 52.26583,
+"lon": 21.08111,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 0.18
+},
+{
+"lat": 52.25139,
+"lon": 21.01306,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 2.68
+},
+{
+"lat": 52.24083,
+"lon": 21.03056,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 1.9
+},
+{
+"lat": 52.21417,
+"lon": 21.09972,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.25
+},
+{
+"lat": 52.21944,
+"lon": 20.98056,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 6.05
+},
+{
+"lat": 52.25889,
+"lon": 21.02917,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 1.78
+},
+{
+"lat": 52.21028,
+"lon": 21.02333,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.98
+},
+{
+"lat": 52.42861,
+"lon": 21.62972,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Strachówka",
+"dist_km": 7.53
+},
+{
+"lat": 52.21528,
+"lon": 21.02222,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.51
+},
+{
+"lat": 52.41028,
+"lon": 21.40194,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Jasienica",
+"dist_km": 0.59
+},
+{
+"lat": 52.27861,
+"lon": 21.02694,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.37
+},
+{
+"lat": 52.26444,
+"lon": 21.06389,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 0.51
+},
+{
+"lat": 52.24222,
+"lon": 21.01167,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 2.96
+},
+{
+"lat": 52.29056,
+"lon": 21.045,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.5
+},
+{
+"lat": 52.23028,
+"lon": 21.02361,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.07
+},
+{
+"lat": 52.29278,
+"lon": 21.02556,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.58
+},
+{
+"lat": 52.255,
+"lon": 20.94389,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 7.4
+},
+{
+"lat": 52.3025,
+"lon": 20.98444,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 7.27
+},
+{
+"lat": 52.245,
+"lon": 21.11361,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.37
+},
+{
+"lat": 52.21972,
+"lon": 21.01,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.56
+},
+{
+"lat": 52.255,
+"lon": 21.03639,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 1.15
+},
+{
+"lat": 52.24889,
+"lon": 21.06028,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 0.59
+},
+{
+"lat": 52.23167,
+"lon": 21.00222,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.07
+},
+{
+"lat": 52.18861,
+"lon": 21.00667,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 7.63
+},
+{
+"lat": 52.20361,
+"lon": 21.04778,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.31
+},
+{
+"lat": 52.22944,
+"lon": 21.00667,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.96
+},
+{
+"lat": 52.34056,
+"lon": 21.04,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 7.78
+},
+{
+"lat": 52.25306,
+"lon": 20.97778,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.09
+},
+{
+"lat": 52.2425,
+"lon": 21.10306,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.09
+},
+{
+"lat": 52.49056,
+"lon": 21.55861,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Szewnica",
+"dist_km": 0.84
+},
+{
+"lat": 52.24028,
+"lon": 21.01806,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 2.65
+},
+{
+"lat": 52.22306,
+"lon": 21.01278,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.15
+},
+{
+"lat": 52.23278,
+"lon": 21.00667,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.75
+},
+{
+"lat": 52.23444,
+"lon": 21.01139,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.38
+},
+{
+"lat": 52.23278,
+"lon": 21.01722,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.17
+},
+{
+"lat": 52.23194,
+"lon": 21.11389,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.44
+},
+{
+"lat": 52.24222,
+"lon": 21.0225,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 2.28
+},
+{
+"lat": 52.23639,
+"lon": 21.03028,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 2.26
+},
+{
+"lat": 52.23361,
+"lon": 21.02083,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 2.93
+},
+{
+"lat": 52.22778,
+"lon": 21.01889,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.48
+},
+{
+"lat": 52.21944,
+"lon": 21.03056,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.85
+},
+{
+"lat": 52.22333,
+"lon": 21.01833,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.89
+},
+{
+"lat": 52.23167,
+"lon": 21.06917,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 2.48
+},
+{
+"lat": 52.22583,
+"lon": 21.03722,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.03
+},
+{
+"lat": 52.24444,
+"lon": 21.015,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 2.67
+},
+{
+"lat": 52.30583,
+"lon": 21.08306,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 2.97
+},
+{
+"lat": 52.28778,
+"lon": 21.06139,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 2.51
+},
+{
+"lat": 52.21861,
+"lon": 20.96417,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 7.03
+},
+{
+"lat": 52.20778,
+"lon": 21.00861,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.69
+},
+{
+"lat": 52.26361,
+"lon": 20.98111,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.03
+},
+{
+"lat": 52.25778,
+"lon": 21.0575,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 0.26
+},
+{
+"lat": 52.2725,
+"lon": 21.065,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 1.11
+},
+{
+"lat": 52.21,
+"lon": 21.01417,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.29
+},
+{
+"lat": 52.20806,
+"lon": 21.00083,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.96
+},
+{
+"lat": 52.27361,
+"lon": 20.94806,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 7.51
+},
+{
+"lat": 52.20806,
+"lon": 21.0825,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.23
+},
+{
+"lat": 52.23389,
+"lon": 21.05944,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 2.02
+},
+{
+"lat": 52.22444,
+"lon": 21.09167,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.02
+},
+{
+"lat": 52.31472,
+"lon": 21.16167,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Zielonka",
+"dist_km": 0.11
+},
+{
+"lat": 52.2875,
+"lon": 21.0875,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 1.28
+},
+{
+"lat": 52.29889,
+"lon": 21.10833,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Ząbki",
+"dist_km": 1.24
+},
+{
+"lat": 52.37,
+"lon": 21.30028,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Duczki",
+"dist_km": 0.3
+},
+{
+"lat": 52.21389,
+"lon": 21.04278,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.22
+},
+{
+"lat": 52.33889,
+"lon": 21.24111,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Wołomin",
+"dist_km": 0.82
+},
+{
+"lat": 52.28167,
+"lon": 21.01417,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.21
+},
+{
+"lat": 52.21306,
+"lon": 21.06778,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.39
+},
+{
+"lat": 52.2125,
+"lon": 20.95694,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 7.81
+},
+{
+"lat": 52.22889,
+"lon": 21.00389,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.15
+},
+{
+"lat": 52.23556,
+"lon": 20.94361,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 7.62
+},
+{
+"lat": 52.2325,
+"lon": 21.01389,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.37
+},
+{
+"lat": 52.23389,
+"lon": 21.0325,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 2.38
+},
+{
+"lat": 52.26861,
+"lon": 20.98083,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.22
+},
+{
+"lat": 52.32333,
+"lon": 21.02472,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 7.09
+},
+{
+"lat": 52.20028,
+"lon": 21.01528,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 6.21
+},
+{
+"lat": 52.245,
+"lon": 21.17722,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 6.32
+},
+{
+"lat": 52.25111,
+"lon": 21.03278,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 1.34
+},
+{
+"lat": 52.21361,
+"lon": 21.15722,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 7.94
+},
+{
+"lat": 52.28833,
+"lon": 20.97556,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 6.62
+},
+{
+"lat": 52.20583,
+"lon": 21.01472,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.67
+},
+{
+"lat": 52.23944,
+"lon": 20.97556,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.41
+},
+{
+"lat": 52.29528,
+"lon": 21.03472,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.36
+},
+{
+"lat": 52.22611,
+"lon": 21.0225,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.48
+},
+{
+"lat": 52.23444,
+"lon": 21.01444,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.21
+},
+{
+"lat": 52.21,
+"lon": 21.02861,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.88
+},
+{
+"lat": 52.2275,
+"lon": 21.00833,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.01
+},
+{
+"lat": 52.19139,
+"lon": 20.99417,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 7.75
+},
+{
+"lat": 52.30778,
+"lon": 21.02806,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.68
+},
+{
+"lat": 52.22083,
+"lon": 21.015,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.25
+},
+{
+"lat": 52.23694,
+"lon": 21.00361,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.7
+},
+{
+"lat": 52.29389,
+"lon": 21.0075,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.51
+},
+{
+"lat": 52.23056,
+"lon": 21.00583,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.93
+},
+{
+"lat": 52.22528,
+"lon": 21.00278,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.46
+},
+{
+"lat": 52.26972,
+"lon": 20.95639,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 6.84
+},
+{
+"lat": 52.22861,
+"lon": 21.01556,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.57
+},
+{
+"lat": 52.21167,
+"lon": 20.96556,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 7.39
+},
+{
+"lat": 52.24833,
+"lon": 21.07306,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 1.22
+},
+{
+"lat": 52.26611,
+"lon": 20.99,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.54
+},
+{
+"lat": 52.245,
+"lon": 20.94278,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 7.51
+},
+{
+"lat": 52.24056,
+"lon": 20.99417,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.15
+},
+{
+"lat": 52.24278,
+"lon": 21.0075,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.21
+},
+{
+"lat": 52.20694,
+"lon": 20.97333,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 7.31
+},
+{
+"lat": 52.22611,
+"lon": 21.02694,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.31
+},
+{
+"lat": 52.22639,
+"lon": 21.00417,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.31
+},
+{
+"lat": 52.23167,
+"lon": 21.00611,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.85
+},
+{
+"lat": 52.25194,
+"lon": 21.12556,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.36
+},
+{
+"lat": 52.22972,
+"lon": 20.97056,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 6.08
+},
+{
+"lat": 52.24139,
+"lon": 21.04389,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 1.27
+},
+{
+"lat": 52.21056,
+"lon": 21.0225,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.97
+},
+{
+"lat": 52.23083,
+"lon": 21.00972,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.7
+},
+{
+"lat": 52.22361,
+"lon": 20.98861,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.34
+},
+{
+"lat": 52.24611,
+"lon": 20.97889,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.04
+},
+{
+"lat": 52.24583,
+"lon": 20.95833,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 6.44
+},
+{
+"lat": 52.19806,
+"lon": 21.03472,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 6.04
+},
+{
+"lat": 52.23083,
+"lon": 21.02278,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.06
+},
+{
+"lat": 52.21222,
+"lon": 20.97917,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 6.62
+},
+{
+"lat": 52.22611,
+"lon": 21.01333,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.88
+},
+{
+"lat": 52.24222,
+"lon": 21.01583,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 2.7
+},
+{
+"lat": 52.21,
+"lon": 20.97306,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 7.1
+},
+{
+"lat": 52.41278,
+"lon": 21.19111,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Radzymin",
+"dist_km": 7.82
+},
+{
+"lat": 52.24111,
+"lon": 20.93722,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 7.93
+},
+{
+"lat": 52.22944,
+"lon": 20.98278,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.34
+},
+{
+"lat": 52.36917,
+"lon": 21.13,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Marki",
+"dist_km": 6.27
+},
+{
+"lat": 52.3475,
+"lon": 21.25417,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Wołomin",
+"dist_km": 0.55
+},
+{
+"lat": 52.22139,
+"lon": 21.02167,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.94
+},
+{
+"lat": 52.25083,
+"lon": 21.08444,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 1.55
+},
+{
+"lat": 52.25056,
+"lon": 20.98528,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.57
+},
+{
+"lat": 52.24361,
+"lon": 21.0,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.68
+},
+{
+"lat": 52.2475,
+"lon": 21.01917,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 2.31
+},
+{
+"lat": 52.23722,
+"lon": 20.96806,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.96
+},
+{
+"lat": 52.22083,
+"lon": 21.0075,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.57
+},
+{
+"lat": 52.25111,
+"lon": 21.0075,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.06
+},
+{
+"lat": 52.21889,
+"lon": 20.96389,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 7.03
+},
+{
+"lat": 52.27417,
+"lon": 20.97944,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.56
+},
+{
+"lat": 52.29972,
+"lon": 21.16028,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Zielonka",
+"dist_km": 1.1
+},
+{
+"lat": 52.23,
+"lon": 20.99444,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.61
+},
+{
+"lat": 52.27667,
+"lon": 21.0525,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 2.03
+},
+{
+"lat": 52.24778,
+"lon": 21.00889,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 2.99
+},
+{
+"lat": 52.22722,
+"lon": 20.99583,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.7
+},
+{
+"lat": 52.20083,
+"lon": 21.02333,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.95
+},
+{
+"lat": 52.22972,
+"lon": 21.0525,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 2.42
+},
+{
+"lat": 52.23972,
+"lon": 20.98306,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.9
+},
+{
+"lat": 52.23944,
+"lon": 21.04583,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 1.41
+},
+{
+"lat": 52.23861,
+"lon": 21.02528,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 2.34
+},
+{
+"lat": 52.2175,
+"lon": 21.01583,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.52
+},
+{
+"lat": 52.23028,
+"lon": 21.01889,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.28
+},
+{
+"lat": 52.20472,
+"lon": 20.99806,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 6.37
+},
+{
+"lat": 52.23222,
+"lon": 20.99972,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.18
+},
+{
+"lat": 52.22444,
+"lon": 21.02806,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.43
+},
+{
+"lat": 52.26528,
+"lon": 21.03,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 2.15
+},
+{
+"lat": 52.3125,
+"lon": 21.02139,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 6.37
+},
+{
+"lat": 52.31833,
+"lon": 21.00611,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 7.55
+},
+{
+"lat": 52.18778,
+"lon": 21.02306,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 7.33
+},
+{
+"lat": 52.29,
+"lon": 21.03028,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.14
+},
+{
+"lat": 52.28222,
+"lon": 20.94889,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 7.82
+},
+{
+"lat": 52.2775,
+"lon": 20.95889,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 6.98
+},
+{
+"lat": 52.23806,
+"lon": 21.00528,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.54
+},
+{
+"lat": 52.25694,
+"lon": 20.96028,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 6.3
+},
+{
+"lat": 52.2375,
+"lon": 20.98194,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.05
+},
+{
+"lat": 52.25472,
+"lon": 20.99833,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.7
+},
+{
+"lat": 52.23639,
+"lon": 21.01278,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.18
+},
+{
+"lat": 52.23556,
+"lon": 20.95194,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 7.07
+},
+{
+"lat": 52.22278,
+"lon": 20.97972,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.89
+},
+{
+"lat": 52.23389,
+"lon": 20.99028,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.66
+},
+{
+"lat": 52.22167,
+"lon": 21.06556,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.43
+},
+{
+"lat": 52.25278,
+"lon": 20.99417,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.97
+},
+{
+"lat": 52.4625,
+"lon": 21.30778,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Karpin",
+"dist_km": 7.8
+},
+{
+"lat": 52.21417,
+"lon": 21.05139,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.14
+},
+{
+"lat": 52.26,
+"lon": 21.00389,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.43
+},
+{
+"lat": 52.28694,
+"lon": 21.02083,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.33
+},
+{
+"lat": 52.22444,
+"lon": 21.04333,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.06
+},
+{
+"lat": 52.22194,
+"lon": 21.03778,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.43
+},
+{
+"lat": 52.19139,
+"lon": 21.01639,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 7.09
+},
+{
+"lat": 52.20111,
+"lon": 20.97833,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 7.53
+},
+{
+"lat": 52.2275,
+"lon": 21.02611,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.21
+},
+{
+"lat": 52.19556,
+"lon": 21.01194,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 6.78
+},
+{
+"lat": 52.21222,
+"lon": 21.00861,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.28
+},
+{
+"lat": 52.19528,
+"lon": 21.02472,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 6.51
+},
+{
+"lat": 52.22417,
+"lon": 21.02056,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.73
+},
+{
+"lat": 52.25083,
+"lon": 21.04083,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 0.79
+},
+{
+"lat": 52.24222,
+"lon": 21.02861,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 1.92
+},
+{
+"lat": 52.26778,
+"lon": 21.18222,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.71
+},
+{
+"lat": 52.19556,
+"lon": 21.02167,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 6.54
+},
+{
+"lat": 52.18722,
+"lon": 21.01056,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 7.67
+},
+{
+"lat": 52.18639,
+"lon": 21.00417,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 7.92
+},
+{
+"lat": 52.38861,
+"lon": 21.19944,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Ciemne",
+"dist_km": 5.31
+},
+{
+"lat": 52.18833,
+"lon": 21.00917,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 7.59
+},
+{
+"lat": 52.28806,
+"lon": 21.03472,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.77
+},
+{
+"lat": 52.23444,
+"lon": 21.03556,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 2.22
+},
+{
+"lat": 52.22611,
+"lon": 20.98917,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.15
+},
+{
+"lat": 52.22333,
+"lon": 21.01472,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.04
+},
+{
+"lat": 52.23667,
+"lon": 20.9975,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.09
+},
+{
+"lat": 52.39667,
+"lon": 21.35139,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Klembów",
+"dist_km": 0.14
+},
+{
+"lat": 52.22722,
+"lon": 21.02361,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.33
+},
+{
+"lat": 52.22472,
+"lon": 20.99222,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.06
+},
+{
+"lat": 52.23972,
+"lon": 20.99806,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.93
+},
+{
+"lat": 52.23083,
+"lon": 21.00083,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.2
+},
+{
+"lat": 52.23556,
+"lon": 21.01306,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.21
+},
+{
+"lat": 52.235,
+"lon": 20.99972,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.03
+},
+{
+"lat": 52.2125,
+"lon": 21.02028,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.84
+},
+{
+"lat": 52.30083,
+"lon": 21.04111,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.51
+},
+{
+"lat": 52.2575,
+"lon": 20.9825,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.81
+},
+{
+"lat": 52.24889,
+"lon": 21.19806,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 6.97
+},
+{
+"lat": 52.22583,
+"lon": 21.025,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.4
+},
+{
+"lat": 52.23639,
+"lon": 20.98417,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.94
+},
+{
+"lat": 52.23167,
+"lon": 20.97972,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.42
+},
+{
+"lat": 52.33056,
+"lon": 21.03556,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 7.17
+},
+{
+"lat": 52.26056,
+"lon": 21.06139,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 0.31
+},
+{
+"lat": 52.22528,
+"lon": 21.00417,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.39
+},
+{
+"lat": 52.23056,
+"lon": 20.99389,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.62
+},
+{
+"lat": 52.42778,
+"lon": 21.35639,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Krusze",
+"dist_km": 2.77
+},
+{
+"lat": 52.55361,
+"lon": 21.61,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Gwizdały",
+"dist_km": 4.72
+},
+{
+"lat": 52.51583,
+"lon": 21.76889,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Kamionna",
+"dist_km": 4.92
+},
+{
+"lat": 52.55722,
+"lon": 21.76444,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Ostrówek",
+"dist_km": 1.09
+},
+{
+"lat": 52.61278,
+"lon": 21.72444,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Brzuza",
+"dist_km": 5.44
+},
+{
+"lat": 52.63806,
+"lon": 21.84444,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Sadowne",
+"dist_km": 2.78
+},
+{
+"lat": 52.51194,
+"lon": 21.42056,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Zabrodzie",
+"dist_km": 8.0
+},
+{
+"lat": 52.49,
+"lon": 21.47083,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Mościska",
+"dist_km": 4.09
+},
+{
+"lat": 52.69278,
+"lon": 21.96667,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Glina",
+"dist_km": 2.62
+},
+{
+"lat": 52.83444,
+"lon": 22.20139,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Andrzejewo",
+"dist_km": 7.98
+},
+{
+"lat": 52.75806,
+"lon": 22.21361,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Szulborze-Koty",
+"dist_km": 0.22
+},
+{
+"lat": 52.48472,
+"lon": 21.36556,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Głuchy",
+"dist_km": 7.57
+},
+{
+"lat": 52.70361,
+"lon": 22.0575,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Kańkowo",
+"dist_km": 0.12
+},
+{
+"lat": 52.92889,
+"lon": 22.52972,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Wysokie Mazowieckie",
+"dist_km": 6.01
+},
+{
+"lat": 52.95444,
+"lon": 22.74139,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Dworaki-Pikaty",
+"dist_km": 1.36
+},
+{
+"lat": 52.87278,
+"lon": 22.55389,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Szepietowo",
+"dist_km": 0.17
+},
+{
+"lat": 52.79306,
+"lon": 22.50472,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Klukowo",
+"dist_km": 6.14
+},
+{
+"lat": 52.92361,
+"lon": 22.64806,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Jabłoń Kościelna",
+"dist_km": 1.54
+},
+{
+"lat": 52.91278,
+"lon": 22.49944,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Wysokie Mazowieckie",
+"dist_km": 5.48
+},
+{
+"lat": 53.13472,
+"lon": 23.16917,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Białystok",
+"dist_km": 2.26
+},
+{
+"lat": 52.97917,
+"lon": 22.82361,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Gąsówka-Osse",
+"dist_km": 0.98
+},
+{
+"lat": 53.11583,
+"lon": 23.09778,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Białystok",
+"dist_km": 0.27
+},
+{
+"lat": 53.12472,
+"lon": 23.21167,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Białystok",
+"dist_km": 5.19
+},
+{
+"lat": 53.12167,
+"lon": 23.14306,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Białystok",
+"dist_km": 1.32
+},
+{
+"lat": 53.13028,
+"lon": 23.08694,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Białystok",
+"dist_km": 1.93
+},
+{
+"lat": 53.15444,
+"lon": 23.13528,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Białystok",
+"dist_km": 2.3
+},
+{
+"lat": 53.13389,
+"lon": 23.1,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Białystok",
+"dist_km": 1.63
+},
+{
+"lat": 53.13139,
+"lon": 23.13861,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Białystok",
+"dist_km": 0.33
+},
+{
+"lat": 53.11861,
+"lon": 23.07611,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Klepacze",
+"dist_km": 1.49
+},
+{
+"lat": 53.1525,
+"lon": 23.09361,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Białystok",
+"dist_km": 3.43
+},
+{
+"lat": 53.10944,
+"lon": 23.12222,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Białystok",
+"dist_km": 1.36
+},
+{
+"lat": 53.12611,
+"lon": 23.17,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Białystok",
+"dist_km": 2.45
+},
+{
+"lat": 53.14778,
+"lon": 23.06056,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Porosły",
+"dist_km": 4.54
+},
+{
+"lat": 53.12389,
+"lon": 23.18861,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Białystok",
+"dist_km": 3.71
+},
+{
+"lat": 53.05944,
+"lon": 22.98056,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Baciuty",
+"dist_km": 1.13
+},
+{
+"lat": 53.13389,
+"lon": 23.15417,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Białystok",
+"dist_km": 1.25
+},
+{
+"lat": 52.99722,
+"lon": 22.8925,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Łapy",
+"dist_km": 0.17
+},
+{
+"lat": 53.13417,
+"lon": 23.22889,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Białystok",
+"dist_km": 6.24
+},
+{
+"lat": 53.16111,
+"lon": 23.09833,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Białystok",
+"dist_km": 3.92
+},
+{
+"lat": 53.10556,
+"lon": 23.14694,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Białystok",
+"dist_km": 2.8
+},
+{
+"lat": 53.07111,
+"lon": 23.09,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Ignatki",
+"dist_km": 2.97
+},
+{
+"lat": 53.12722,
+"lon": 23.1275,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Białystok",
+"dist_km": 0.16
+},
+{
+"lat": 53.11694,
+"lon": 23.12111,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Białystok",
+"dist_km": 0.7
+},
+{
+"lat": 53.11389,
+"lon": 23.13611,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Białystok",
+"dist_km": 1.63
+},
+{
+"lat": 53.15778,
+"lon": 23.20111,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Białystok",
+"dist_km": 5.13
+},
+{
+"lat": 53.10028,
+"lon": 23.12806,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Białystok",
+"dist_km": 2.37
+},
+{
+"lat": 53.13806,
+"lon": 23.18028,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Białystok",
+"dist_km": 3.03
+},
+{
+"lat": 53.11333,
+"lon": 23.19861,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Białystok",
+"dist_km": 4.78
+},
+{
+"lat": 53.14,
+"lon": 23.10417,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Białystok",
+"dist_km": 1.94
+},
+{
+"lat": 53.14056,
+"lon": 23.13694,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Białystok",
+"dist_km": 0.77
+},
+{
+"lat": 53.12722,
+"lon": 23.14944,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Białystok",
+"dist_km": 1.17
+},
+{
+"lat": 52.23111,
+"lon": 20.96944,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 6.09
+},
+{
+"lat": 52.26944,
+"lon": 21.14889,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.03
+},
+{
+"lat": 52.22806,
+"lon": 20.99778,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.54
+},
+{
+"lat": 52.31028,
+"lon": 21.04611,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.04
+},
+{
+"lat": 52.22556,
+"lon": 21.10556,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.58
+},
+{
+"lat": 52.29611,
+"lon": 21.05139,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.65
+},
+{
+"lat": 52.205,
+"lon": 21.02583,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.46
+},
+{
+"lat": 52.30278,
+"lon": 21.03444,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.98
+},
+{
+"lat": 52.25583,
+"lon": 20.99389,
+"op": "Orange",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.01
+},
+{
+"lat": 52.31306,
+"lon": 21.03583,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.74
+},
+{
+"lat": 52.33444,
+"lon": 21.09139,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Marki",
+"dist_km": 4.9
+},
+{
+"lat": 52.32472,
+"lon": 21.05306,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.89
+},
+{
+"lat": 52.33444,
+"lon": 21.09083,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Marki",
+"dist_km": 4.93
+},
+{
+"lat": 52.23222,
+"lon": 20.98556,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.03
+},
+{
+"lat": 52.22694,
+"lon": 20.99222,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.92
+},
+{
+"lat": 52.31222,
+"lon": 21.21639,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Ossów",
+"dist_km": 2.26
+},
+{
+"lat": 52.235,
+"lon": 20.98833,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.74
+},
+{
+"lat": 52.32417,
+"lon": 21.06444,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.32
+},
+{
+"lat": 52.25583,
+"lon": 20.98111,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.88
+},
+{
+"lat": 52.35333,
+"lon": 21.06,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 7.88
+},
+{
+"lat": 52.22917,
+"lon": 20.98361,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.3
+},
+{
+"lat": 52.29417,
+"lon": 21.11278,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Ząbki",
+"dist_km": 0.65
+},
+{
+"lat": 52.23056,
+"lon": 21.01278,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.56
+},
+{
+"lat": 52.23944,
+"lon": 21.02833,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 2.12
+},
+{
+"lat": 52.19472,
+"lon": 21.04833,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 6.29
+},
+{
+"lat": 52.23056,
+"lon": 20.9775,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.61
+},
+{
+"lat": 52.22778,
+"lon": 21.09639,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.97
+},
+{
+"lat": 52.22306,
+"lon": 21.00806,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.37
+},
+{
+"lat": 52.23389,
+"lon": 20.98972,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.7
+},
+{
+"lat": 52.23556,
+"lon": 21.00778,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.52
+},
+{
+"lat": 52.23028,
+"lon": 20.97611,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.71
+},
+{
+"lat": 52.20056,
+"lon": 21.00556,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 6.48
+},
+{
+"lat": 52.18306,
+"lon": 21.02111,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 7.87
+},
+{
+"lat": 52.25556,
+"lon": 21.04639,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 0.6
+},
+{
+"lat": 52.25472,
+"lon": 21.04444,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 0.64
+},
+{
+"lat": 52.25417,
+"lon": 20.99667,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.81
+},
+{
+"lat": 52.265,
+"lon": 21.00111,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.79
+},
+{
+"lat": 52.23083,
+"lon": 21.01056,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.66
+},
+{
+"lat": 52.28667,
+"lon": 21.13,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Ząbki",
+"dist_km": 0.76
+},
+{
+"lat": 52.2325,
+"lon": 20.98889,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.82
+},
+{
+"lat": 52.24194,
+"lon": 21.015,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 2.76
+},
+{
+"lat": 52.40222,
+"lon": 21.16639,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Radzymin",
+"dist_km": 7.83
+},
+{
+"lat": 52.26333,
+"lon": 21.15833,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.96
+},
+{
+"lat": 52.23306,
+"lon": 21.00889,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.6
+},
+{
+"lat": 52.23139,
+"lon": 21.01667,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.3
+},
+{
+"lat": 52.23028,
+"lon": 20.98917,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.91
+},
+{
+"lat": 52.23167,
+"lon": 21.10389,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.0
+},
+{
+"lat": 52.24861,
+"lon": 21.07722,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 1.39
+},
+{
+"lat": 52.23111,
+"lon": 20.98472,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.14
+},
+{
+"lat": 52.30556,
+"lon": 21.08361,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 2.92
+},
+{
+"lat": 52.22194,
+"lon": 20.97667,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 6.12
+},
+{
+"lat": 52.22,
+"lon": 21.04083,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.58
+},
+{
+"lat": 52.23083,
+"lon": 20.97944,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.48
+},
+{
+"lat": 52.22667,
+"lon": 21.00889,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.05
+},
+{
+"lat": 52.235,
+"lon": 21.00944,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.45
+},
+{
+"lat": 52.23417,
+"lon": 20.98583,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.93
+},
+{
+"lat": 52.25611,
+"lon": 21.04389,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 0.76
+},
+{
+"lat": 52.23306,
+"lon": 20.96611,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 6.23
+},
+{
+"lat": 52.23778,
+"lon": 20.96056,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 6.44
+},
+{
+"lat": 52.23944,
+"lon": 20.94222,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 7.63
+},
+{
+"lat": 52.27472,
+"lon": 21.05389,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 1.8
+},
+{
+"lat": 52.18417,
+"lon": 21.01222,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 7.94
+},
+{
+"lat": 52.195,
+"lon": 21.0475,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 6.27
+},
+{
+"lat": 52.24056,
+"lon": 21.02833,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 2.04
+},
+{
+"lat": 52.22861,
+"lon": 20.99917,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.43
+},
+{
+"lat": 52.22667,
+"lon": 20.99889,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.57
+},
+{
+"lat": 52.23583,
+"lon": 20.98889,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.67
+},
+{
+"lat": 52.26083,
+"lon": 21.09972,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 1.45
+},
+{
+"lat": 52.42472,
+"lon": 21.22417,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Stary Dybów",
+"dist_km": 7.62
+},
+{
+"lat": 52.23,
+"lon": 20.9825,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.33
+},
+{
+"lat": 52.23306,
+"lon": 20.99833,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.22
+},
+{
+"lat": 52.23528,
+"lon": 21.00778,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.53
+},
+{
+"lat": 52.23694,
+"lon": 21.01639,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 2.94
+},
+{
+"lat": 52.20694,
+"lon": 20.97972,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 6.99
+},
+{
+"lat": 52.25861,
+"lon": 21.05222,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 0.58
+},
+{
+"lat": 52.24528,
+"lon": 21.00528,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.28
+},
+{
+"lat": 52.35111,
+"lon": 21.23167,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Wołomin",
+"dist_km": 0.66
+},
+{
+"lat": 52.20139,
+"lon": 21.03389,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.69
+},
+{
+"lat": 52.21111,
+"lon": 21.01444,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.17
+},
+{
+"lat": 52.22083,
+"lon": 20.97194,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 6.45
+},
+{
+"lat": 52.27889,
+"lon": 21.12611,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Ząbki",
+"dist_km": 1.21
+},
+{
+"lat": 52.23083,
+"lon": 20.9675,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 6.22
+},
+{
+"lat": 52.23472,
+"lon": 20.99944,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.06
+},
+{
+"lat": 52.39083,
+"lon": 21.16333,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Słupno",
+"dist_km": 6.92
+},
+{
+"lat": 52.26222,
+"lon": 21.07083,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 0.01
+},
+{
+"lat": 52.23778,
+"lon": 21.02194,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 2.58
+},
+{
+"lat": 52.24667,
+"lon": 20.96639,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.89
+},
+{
+"lat": 52.22611,
+"lon": 20.95083,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 7.47
+},
+{
+"lat": 52.23306,
+"lon": 21.01389,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.33
+},
+{
+"lat": 52.36861,
+"lon": 21.46278,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Międzypole",
+"dist_km": 6.73
+},
+{
+"lat": 52.22222,
+"lon": 20.9775,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 6.05
+},
+{
+"lat": 52.29028,
+"lon": 21.11222,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Ząbki",
+"dist_km": 0.36
+},
+{
+"lat": 52.2225,
+"lon": 20.95361,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 7.46
+},
+{
+"lat": 52.2375,
+"lon": 21.10389,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.53
+},
+{
+"lat": 52.25306,
+"lon": 21.03583,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 1.14
+},
+{
+"lat": 52.23083,
+"lon": 20.98028,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.42
+},
+{
+"lat": 52.23167,
+"lon": 20.98806,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.91
+},
+{
+"lat": 52.2675,
+"lon": 21.05861,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 1.0
+},
+{
+"lat": 52.21028,
+"lon": 20.96167,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 7.69
+},
+{
+"lat": 52.18139,
+"lon": 21.04417,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 7.78
+},
+{
+"lat": 52.23167,
+"lon": 21.10667,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.13
+},
+{
+"lat": 52.27944,
+"lon": 20.94639,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 7.85
+},
+{
+"lat": 52.18944,
+"lon": 21.05972,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 6.89
+},
+{
+"lat": 52.25583,
+"lon": 21.03583,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 1.22
+},
+{
+"lat": 52.2375,
+"lon": 20.98306,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.98
+},
+{
+"lat": 52.23111,
+"lon": 21.0125,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.54
+},
+{
+"lat": 52.24889,
+"lon": 21.01306,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 2.7
+},
+{
+"lat": 52.30361,
+"lon": 21.05778,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.96
+},
+{
+"lat": 52.2875,
+"lon": 21.1075,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Ząbki",
+"dist_km": 0.35
+},
+{
+"lat": 52.20833,
+"lon": 21.02139,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.23
+},
+{
+"lat": 52.23278,
+"lon": 21.00111,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.07
+},
+{
+"lat": 52.26056,
+"lon": 20.9925,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.2
+},
+{
+"lat": 52.2425,
+"lon": 21.075,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 1.79
+},
+{
+"lat": 52.20556,
+"lon": 21.01,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.85
+},
+{
+"lat": 52.22528,
+"lon": 21.01944,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.67
+},
+{
+"lat": 52.22139,
+"lon": 21.01639,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.14
+},
+{
+"lat": 52.22139,
+"lon": 21.03694,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.5
+},
+{
+"lat": 52.24306,
+"lon": 21.0175,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 2.56
+},
+{
+"lat": 52.23694,
+"lon": 21.08611,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 2.75
+},
+{
+"lat": 52.23111,
+"lon": 21.0225,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.05
+},
+{
+"lat": 52.2225,
+"lon": 20.98861,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.41
+},
+{
+"lat": 52.33472,
+"lon": 21.22194,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Kobyłka",
+"dist_km": 0.45
+},
+{
+"lat": 52.19306,
+"lon": 21.0875,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 6.9
+},
+{
+"lat": 52.2225,
+"lon": 21.01722,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.01
+},
+{
+"lat": 52.23417,
+"lon": 21.02028,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 2.92
+},
+{
+"lat": 52.22528,
+"lon": 20.96222,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 6.8
+},
+{
+"lat": 52.23306,
+"lon": 21.01028,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.53
+},
+{
+"lat": 52.22139,
+"lon": 21.00528,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.63
+},
+{
+"lat": 52.28139,
+"lon": 20.98056,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.9
+},
+{
+"lat": 52.20639,
+"lon": 21.03194,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.19
+},
+{
+"lat": 52.26972,
+"lon": 20.94139,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 7.82
+},
+{
+"lat": 52.22528,
+"lon": 21.06472,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.03
+},
+{
+"lat": 52.22444,
+"lon": 21.02806,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.43
+},
+{
+"lat": 52.19389,
+"lon": 21.05722,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 6.39
+},
+{
+"lat": 52.22806,
+"lon": 21.025,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.2
+},
+{
+"lat": 52.23361,
+"lon": 21.00167,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.99
+},
+{
+"lat": 52.25444,
+"lon": 20.99667,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.81
+},
+{
+"lat": 52.22694,
+"lon": 20.99306,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.88
+},
+{
+"lat": 52.23306,
+"lon": 21.03778,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 2.28
+},
+{
+"lat": 52.22639,
+"lon": 21.0125,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.89
+},
+{
+"lat": 52.25444,
+"lon": 20.98417,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.66
+},
+{
+"lat": 52.19944,
+"lon": 21.01361,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 6.34
+},
+{
+"lat": 52.23556,
+"lon": 20.98194,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.12
+},
+{
+"lat": 52.24944,
+"lon": 20.99556,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.88
+},
+{
+"lat": 52.25139,
+"lon": 21.00944,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 2.93
+},
+{
+"lat": 52.22583,
+"lon": 21.01083,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.02
+},
+{
+"lat": 52.24417,
+"lon": 20.98278,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.81
+},
+{
+"lat": 52.23278,
+"lon": 20.99944,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.16
+},
+{
+"lat": 52.23667,
+"lon": 21.00083,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.88
+},
+{
+"lat": 52.23833,
+"lon": 20.94806,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 7.26
+},
+{
+"lat": 52.23639,
+"lon": 20.99778,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.08
+},
+{
+"lat": 52.2275,
+"lon": 21.00472,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.2
+},
+{
+"lat": 52.22611,
+"lon": 21.02667,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.32
+},
+{
+"lat": 52.23556,
+"lon": 20.99639,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.21
+},
+{
+"lat": 52.22472,
+"lon": 20.99139,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.11
+},
+{
+"lat": 52.23583,
+"lon": 20.97306,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.68
+},
+{
+"lat": 52.2425,
+"lon": 21.01167,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 2.95
+},
+{
+"lat": 52.22694,
+"lon": 21.00167,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.4
+},
+{
+"lat": 52.22306,
+"lon": 20.98056,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.83
+},
+{
+"lat": 52.2425,
+"lon": 21.02472,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 2.14
+},
+{
+"lat": 52.23056,
+"lon": 20.9875,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.0
+},
+{
+"lat": 52.24389,
+"lon": 21.0025,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.5
+},
+{
+"lat": 52.1875,
+"lon": 21.06083,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 7.11
+},
+{
+"lat": 52.275,
+"lon": 21.01639,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.56
+},
+{
+"lat": 52.18722,
+"lon": 21.04667,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 7.13
+},
+{
+"lat": 52.21917,
+"lon": 21.01139,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.55
+},
+{
+"lat": 52.23806,
+"lon": 21.03139,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 2.07
+},
+{
+"lat": 52.23944,
+"lon": 20.99444,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.17
+},
+{
+"lat": 52.25306,
+"lon": 20.99917,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.63
+},
+{
+"lat": 52.27167,
+"lon": 20.97472,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.74
+},
+{
+"lat": 52.22694,
+"lon": 21.01556,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.7
+},
+{
+"lat": 52.24972,
+"lon": 21.02972,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 1.56
+},
+{
+"lat": 52.22833,
+"lon": 20.99361,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.76
+},
+{
+"lat": 52.21361,
+"lon": 21.10361,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.46
+},
+{
+"lat": 52.22917,
+"lon": 20.96083,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 6.72
+},
+{
+"lat": 52.19667,
+"lon": 21.00556,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 6.86
+},
+{
+"lat": 52.23556,
+"lon": 21.00333,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.78
+},
+{
+"lat": 52.2225,
+"lon": 21.00917,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.36
+},
+{
+"lat": 52.25139,
+"lon": 20.9775,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.1
+},
+{
+"lat": 52.21111,
+"lon": 20.97056,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 7.15
+},
+{
+"lat": 52.27194,
+"lon": 21.07889,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 0.42
+},
+{
+"lat": 52.24778,
+"lon": 21.01444,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 2.62
+},
+{
+"lat": 52.28083,
+"lon": 21.0625,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 1.9
+},
+{
+"lat": 52.36389,
+"lon": 21.14,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Marki",
+"dist_km": 5.4
+},
+{
+"lat": 52.27917,
+"lon": 20.97083,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 6.34
+},
+{
+"lat": 52.42889,
+"lon": 21.43306,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Tłuszcz",
+"dist_km": 0.11
+},
+{
+"lat": 52.25444,
+"lon": 20.99083,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.21
+},
+{
+"lat": 52.29417,
+"lon": 21.02139,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.88
+},
+{
+"lat": 52.29111,
+"lon": 21.06806,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 2.47
+},
+{
+"lat": 52.32111,
+"lon": 21.10444,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Marki",
+"dist_km": 3.22
+},
+{
+"lat": 52.19472,
+"lon": 20.99722,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 7.33
+},
+{
+"lat": 52.21639,
+"lon": 21.045,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.92
+},
+{
+"lat": 52.21222,
+"lon": 20.98778,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100"
+],
+"place": "Warszawa",
+"dist_km": 6.19
+},
+{
+"lat": 52.26028,
+"lon": 20.96944,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.73
+},
+{
+"lat": 52.30278,
+"lon": 21.01528,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.87
+},
+{
+"lat": 52.27083,
+"lon": 20.9525,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 7.13
+},
+{
+"lat": 52.27056,
+"lon": 21.07222,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 0.62
+},
+{
+"lat": 52.2675,
+"lon": 20.98417,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.97
+},
+{
+"lat": 52.1975,
+"lon": 21.05,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.98
+},
+{
+"lat": 52.17944,
+"lon": 21.05111,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 7.98
+},
+{
+"lat": 52.21417,
+"lon": 21.01472,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.87
+},
+{
+"lat": 52.25889,
+"lon": 21.16194,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.49
+},
+{
+"lat": 52.2625,
+"lon": 21.085,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 0.63
+},
+{
+"lat": 52.19556,
+"lon": 21.02389,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 6.49
+},
+{
+"lat": 52.22167,
+"lon": 20.94583,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 7.98
+},
+{
+"lat": 52.35722,
+"lon": 21.26583,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Wołomin",
+"dist_km": 0.12
+},
+{
+"lat": 52.28694,
+"lon": 21.12944,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Ząbki",
+"dist_km": 0.71
+},
+{
+"lat": 52.22806,
+"lon": 21.05694,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 2.62
+},
+{
+"lat": 52.23778,
+"lon": 21.01806,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 2.79
+},
+{
+"lat": 52.26639,
+"lon": 21.175,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.48
+},
+{
+"lat": 52.24778,
+"lon": 20.98361,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.71
+},
+{
+"lat": 52.23861,
+"lon": 21.01722,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 2.79
+},
+{
+"lat": 52.26944,
+"lon": 21.04639,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 1.72
+},
+{
+"lat": 52.27528,
+"lon": 21.11083,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Ząbki",
+"dist_km": 0.79
+},
+{
+"lat": 52.23,
+"lon": 21.03167,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 2.77
+},
+{
+"lat": 52.34389,
+"lon": 21.12472,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Marki",
+"dist_km": 4.19
+},
+{
+"lat": 52.23639,
+"lon": 21.04972,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 1.69
+},
+{
+"lat": 52.29611,
+"lon": 21.02583,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.84
+},
+{
+"lat": 52.24056,
+"lon": 20.97111,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.67
+},
+{
+"lat": 52.26333,
+"lon": 21.02278,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 2.4
+},
+{
+"lat": 52.28167,
+"lon": 21.02639,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.64
+},
+{
+"lat": 52.2875,
+"lon": 20.95056,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 7.99
+},
+{
+"lat": 52.24028,
+"lon": 21.10222,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.23
+},
+{
+"lat": 52.20083,
+"lon": 21.02833,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.85
+},
+{
+"lat": 52.20194,
+"lon": 21.11639,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 7.01
+},
+{
+"lat": 52.21694,
+"lon": 21.02417,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.29
+},
+{
+"lat": 52.24639,
+"lon": 21.11056,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.12
+},
+{
+"lat": 52.2275,
+"lon": 21.00361,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.26
+},
+{
+"lat": 52.18667,
+"lon": 21.01917,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 7.53
+},
+{
+"lat": 52.21722,
+"lon": 20.99611,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.4
+},
+{
+"lat": 52.20778,
+"lon": 21.04667,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.86
+},
+{
+"lat": 52.30306,
+"lon": 21.10833,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Ząbki",
+"dist_km": 1.58
+},
+{
+"lat": 52.275,
+"lon": 21.04778,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 2.11
+},
+{
+"lat": 52.22472,
+"lon": 21.03417,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.22
+},
+{
+"lat": 52.24139,
+"lon": 21.00306,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.55
+},
+{
+"lat": 52.32139,
+"lon": 21.08583,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Marki",
+"dist_km": 4.1
+},
+{
+"lat": 52.2025,
+"lon": 21.02389,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.77
+},
+{
+"lat": 52.22889,
+"lon": 21.01111,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.77
+},
+{
+"lat": 52.23306,
+"lon": 20.9625,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 6.46
+},
+{
+"lat": 52.25167,
+"lon": 20.98917,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.31
+},
+{
+"lat": 52.28917,
+"lon": 21.07667,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 1.92
+},
+{
+"lat": 52.23889,
+"lon": 20.9875,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.64
+},
+{
+"lat": 52.22944,
+"lon": 21.0175,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.41
+},
+{
+"lat": 52.21583,
+"lon": 21.0575,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.97
+},
+{
+"lat": 52.22222,
+"lon": 21.08667,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.0
+},
+{
+"lat": 52.29333,
+"lon": 21.00111,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.76
+},
+{
+"lat": 52.28083,
+"lon": 20.96139,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 6.99
+},
+{
+"lat": 52.25139,
+"lon": 21.0575,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 0.25
+},
+{
+"lat": 52.25583,
+"lon": 21.00472,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.28
+},
+{
+"lat": 52.31361,
+"lon": 21.02111,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 6.47
+},
+{
+"lat": 52.18306,
+"lon": 21.02694,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 7.77
+},
+{
+"lat": 52.24694,
+"lon": 20.99222,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.13
+},
+{
+"lat": 52.23778,
+"lon": 21.01194,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.15
+},
+{
+"lat": 52.25778,
+"lon": 21.11944,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 2.61
+},
+{
+"lat": 52.19111,
+"lon": 21.01083,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 7.26
+},
+{
+"lat": 52.21806,
+"lon": 20.97778,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 6.29
+},
+{
+"lat": 52.26778,
+"lon": 20.96333,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 6.32
+},
+{
+"lat": 52.24472,
+"lon": 21.00944,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.02
+},
+{
+"lat": 52.23389,
+"lon": 21.06278,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 2.08
+},
+{
+"lat": 52.21028,
+"lon": 21.04139,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.63
+},
+{
+"lat": 52.24306,
+"lon": 20.98667,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.58
+},
+{
+"lat": 52.20333,
+"lon": 21.00278,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 6.32
+},
+{
+"lat": 52.23528,
+"lon": 21.01694,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.01
+},
+{
+"lat": 52.22056,
+"lon": 21.08278,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.01
+},
+{
+"lat": 52.22028,
+"lon": 21.02361,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.98
+},
+{
+"lat": 52.19972,
+"lon": 20.99611,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 6.9
+},
+{
+"lat": 52.28972,
+"lon": 21.15528,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Zielonka",
+"dist_km": 1.68
+},
+{
+"lat": 52.22194,
+"lon": 21.10139,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.68
+},
+{
+"lat": 52.24333,
+"lon": 20.95972,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 6.38
+},
+{
+"lat": 52.23806,
+"lon": 21.12861,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.63
+},
+{
+"lat": 52.24667,
+"lon": 21.06861,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 1.15
+},
+{
+"lat": 52.31333,
+"lon": 21.12083,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Marki",
+"dist_km": 1.83
+},
+{
+"lat": 52.23111,
+"lon": 21.135,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.49
+},
+{
+"lat": 52.225,
+"lon": 20.99694,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.79
+},
+{
+"lat": 52.23889,
+"lon": 20.95889,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 6.53
+},
+{
+"lat": 52.28917,
+"lon": 21.0275,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.2
+},
+{
+"lat": 52.18389,
+"lon": 21.05778,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 7.49
+},
+{
+"lat": 52.21444,
+"lon": 21.13389,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 6.79
+},
+{
+"lat": 52.24056,
+"lon": 21.10917,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.53
+},
+{
+"lat": 52.26694,
+"lon": 20.97722,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.39
+},
+{
+"lat": 52.2525,
+"lon": 21.03611,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 1.11
+},
+{
+"lat": 52.25056,
+"lon": 21.00444,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.27
+},
+{
+"lat": 52.22278,
+"lon": 20.98389,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.65
+},
+{
+"lat": 52.24444,
+"lon": 21.08389,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 2.04
+},
+{
+"lat": 52.25417,
+"lon": 21.00917,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 2.96
+},
+{
+"lat": 52.21222,
+"lon": 21.06111,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.39
+},
+{
+"lat": 52.32694,
+"lon": 21.06528,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.5
+},
+{
+"lat": 52.21889,
+"lon": 21.02194,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.17
+},
+{
+"lat": 52.19917,
+"lon": 21.03139,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.97
+},
+{
+"lat": 52.22722,
+"lon": 21.04167,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 2.79
+},
+{
+"lat": 52.29556,
+"lon": 21.04083,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.1
+},
+{
+"lat": 52.24528,
+"lon": 20.99667,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.86
+},
+{
+"lat": 52.26139,
+"lon": 20.95806,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 6.52
+},
+{
+"lat": 52.30528,
+"lon": 21.05222,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.36
+},
+{
+"lat": 52.31306,
+"lon": 20.99583,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 7.6
+},
+{
+"lat": 52.2175,
+"lon": 21.00444,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.99
+},
+{
+"lat": 52.23222,
+"lon": 21.01556,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.3
+},
+{
+"lat": 52.23306,
+"lon": 21.12,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.64
+},
+{
+"lat": 52.26444,
+"lon": 20.97,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.79
+},
+{
+"lat": 52.23222,
+"lon": 21.09222,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.42
+},
+{
+"lat": 52.18583,
+"lon": 21.08528,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 7.61
+},
+{
+"lat": 52.20444,
+"lon": 20.99667,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 6.45
+},
+{
+"lat": 52.20889,
+"lon": 21.06111,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.76
+},
+{
+"lat": 52.22389,
+"lon": 21.02028,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.76
+},
+{
+"lat": 52.23028,
+"lon": 21.00361,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.07
+},
+{
+"lat": 52.23861,
+"lon": 21.00528,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.52
+},
+{
+"lat": 52.23028,
+"lon": 20.98028,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.45
+},
+{
+"lat": 52.23222,
+"lon": 20.95861,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 6.74
+},
+{
+"lat": 52.3025,
+"lon": 21.07917,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 2.88
+},
+{
+"lat": 52.23528,
+"lon": 21.01139,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.33
+},
+{
+"lat": 52.20083,
+"lon": 21.01056,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 6.3
+},
+{
+"lat": 52.26361,
+"lon": 21.04972,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 1.1
+},
+{
+"lat": 52.24778,
+"lon": 20.97944,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.99
+},
+{
+"lat": 52.22361,
+"lon": 20.98833,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.35
+},
+{
+"lat": 52.23083,
+"lon": 21.00139,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.17
+},
+{
+"lat": 52.23972,
+"lon": 21.01333,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 2.97
+},
+{
+"lat": 52.22167,
+"lon": 21.02361,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.85
+},
+{
+"lat": 52.21778,
+"lon": 21.00806,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.81
+},
+{
+"lat": 52.21,
+"lon": 21.0225,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.03
+},
+{
+"lat": 52.23806,
+"lon": 21.0075,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.41
+},
+{
+"lat": 52.22778,
+"lon": 21.00833,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.99
+},
+{
+"lat": 52.24139,
+"lon": 21.08194,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 2.2
+},
+{
+"lat": 52.24667,
+"lon": 21.0025,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.44
+},
+{
+"lat": 52.23833,
+"lon": 21.05333,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 1.47
+},
+{
+"lat": 52.23472,
+"lon": 21.02778,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 2.51
+},
+{
+"lat": 52.22278,
+"lon": 21.0125,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.19
+},
+{
+"lat": 52.20889,
+"lon": 21.00944,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.56
+},
+{
+"lat": 52.18944,
+"lon": 21.01861,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 7.25
+},
+{
+"lat": 52.18222,
+"lon": 21.02472,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 7.9
+},
+{
+"lat": 52.22861,
+"lon": 20.97694,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.74
+},
+{
+"lat": 52.19472,
+"lon": 21.01611,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 6.76
+},
+{
+"lat": 52.3375,
+"lon": 21.12111,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Marki",
+"dist_km": 3.77
+},
+{
+"lat": 52.19111,
+"lon": 21.00333,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 7.48
+},
+{
+"lat": 52.25833,
+"lon": 20.96028,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 6.32
+},
+{
+"lat": 52.30417,
+"lon": 21.09333,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Ząbki",
+"dist_km": 2.36
+},
+{
+"lat": 52.30528,
+"lon": 21.08833,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Marki",
+"dist_km": 2.68
+},
+{
+"lat": 52.24889,
+"lon": 21.04306,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 0.7
+},
+{
+"lat": 52.21417,
+"lon": 21.00306,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.33
+},
+{
+"lat": 52.20194,
+"lon": 21.04361,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.52
+},
+{
+"lat": 52.21722,
+"lon": 20.97028,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 6.77
+},
+{
+"lat": 52.23722,
+"lon": 21.07861,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 2.38
+},
+{
+"lat": 52.22806,
+"lon": 21.08028,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.22
+},
+{
+"lat": 52.23694,
+"lon": 20.99111,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.48
+},
+{
+"lat": 52.22528,
+"lon": 20.97028,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 6.31
+},
+{
+"lat": 52.23778,
+"lon": 21.12083,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.29
+},
+{
+"lat": 52.48472,
+"lon": 21.64167,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Nowy Jadów",
+"dist_km": 2.81
+},
+{
+"lat": 52.2575,
+"lon": 21.04056,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 1.04
+},
+{
+"lat": 52.31778,
+"lon": 21.05,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.47
+},
+{
+"lat": 52.23444,
+"lon": 20.99722,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.21
+},
+{
+"lat": 52.22806,
+"lon": 21.01194,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.79
+},
+{
+"lat": 52.24194,
+"lon": 21.02889,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 1.92
+},
+{
+"lat": 52.23528,
+"lon": 21.01083,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.36
+},
+{
+"lat": 52.25778,
+"lon": 20.97056,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.62
+},
+{
+"lat": 52.24611,
+"lon": 20.94028,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 7.66
+},
+{
+"lat": 52.2425,
+"lon": 20.99361,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.13
+},
+{
+"lat": 52.21917,
+"lon": 21.01778,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.29
+},
+{
+"lat": 52.24917,
+"lon": 21.01528,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 2.54
+},
+{
+"lat": 52.23389,
+"lon": 20.99,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.68
+},
+{
+"lat": 52.2225,
+"lon": 20.97833,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.99
+},
+{
+"lat": 52.32917,
+"lon": 21.28417,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Majdan",
+"dist_km": 3.38
+},
+{
+"lat": 52.24972,
+"lon": 21.05889,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 0.45
+},
+{
+"lat": 52.23306,
+"lon": 20.9875,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.87
+},
+{
+"lat": 52.25167,
+"lon": 21.09,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 1.74
+},
+{
+"lat": 52.30694,
+"lon": 21.08083,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.17
+},
+{
+"lat": 52.25667,
+"lon": 20.97722,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 5.15
+},
+{
+"lat": 52.21333,
+"lon": 20.98583,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 6.2
+},
+{
+"lat": 52.21583,
+"lon": 21.025,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.37
+},
+{
+"lat": 52.54417,
+"lon": 21.89222,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Stoczek",
+"dist_km": 7.45
+},
+{
+"lat": 52.61111,
+"lon": 21.85472,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Zieleniec",
+"dist_km": 0.02
+},
+{
+"lat": 52.51722,
+"lon": 21.69944,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Łochów",
+"dist_km": 1.99
+},
+{
+"lat": 52.53,
+"lon": 21.68056,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Łochów",
+"dist_km": 0.1
+},
+{
+"lat": 52.53306,
+"lon": 21.68972,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Łochów",
+"dist_km": 0.17
+},
+{
+"lat": 52.54111,
+"lon": 21.73028,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Łopianka",
+"dist_km": 1.11
+},
+{
+"lat": 52.63889,
+"lon": 21.95361,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Orzełek",
+"dist_km": 1.6
+},
+{
+"lat": 52.75361,
+"lon": 22.13194,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Zaręby Kościelne",
+"dist_km": 2.49
+},
+{
+"lat": 52.74694,
+"lon": 22.00472,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Daniłówka Druga",
+"dist_km": 6.04
+},
+{
+"lat": 52.87833,
+"lon": 22.72861,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Łopienie-Jeże",
+"dist_km": 5.5
+},
+{
+"lat": 52.86333,
+"lon": 22.55528,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Szepietowo",
+"dist_km": 1.13
+},
+{
+"lat": 52.83472,
+"lon": 22.26694,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Dmochy-Mrozy",
+"dist_km": 5.85
+},
+{
+"lat": 52.79639,
+"lon": 22.32861,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Czyżew",
+"dist_km": 0.12
+},
+{
+"lat": 52.99861,
+"lon": 22.7025,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Sokoły",
+"dist_km": 6.9
+},
+{
+"lat": 53.14361,
+"lon": 23.15861,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Białystok",
+"dist_km": 1.9
+},
+{
+"lat": 53.13556,
+"lon": 23.13361,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Białystok",
+"dist_km": 0.25
+},
+{
+"lat": 53.12,
+"lon": 23.12111,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Białystok",
+"dist_km": 0.46
+},
+{
+"lat": 53.12306,
+"lon": 23.17222,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Białystok",
+"dist_km": 2.72
+},
+{
+"lat": 53.12389,
+"lon": 23.08361,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Białystok",
+"dist_km": 1.56
+},
+{
+"lat": 53.14056,
+"lon": 23.19111,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Białystok",
+"dist_km": 3.8
+},
+{
+"lat": 53.17306,
+"lon": 23.18861,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Białystok",
+"dist_km": 5.62
+},
+{
+"lat": 53.13444,
+"lon": 23.145,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Białystok",
+"dist_km": 0.65
+},
+{
+"lat": 53.12639,
+"lon": 23.24917,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Zaścianki",
+"dist_km": 7.64
+},
+{
+"lat": 53.16167,
+"lon": 23.08139,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Białystok",
+"dist_km": 4.73
+},
+{
+"lat": 53.12583,
+"lon": 23.10194,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Białystok",
+"dist_km": 0.89
+},
+{
+"lat": 53.13889,
+"lon": 23.17056,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Białystok",
+"dist_km": 2.42
+},
+{
+"lat": 53.15333,
+"lon": 23.16806,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Białystok",
+"dist_km": 3.08
+},
+{
+"lat": 53.12,
+"lon": 23.15833,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Białystok",
+"dist_km": 2.15
+},
+{
+"lat": 53.1625,
+"lon": 23.18583,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Białystok",
+"dist_km": 4.64
+},
+{
+"lat": 53.14083,
+"lon": 23.21028,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Białystok",
+"dist_km": 5.06
+},
+{
+"lat": 53.13139,
+"lon": 23.19528,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Białystok",
+"dist_km": 4.0
+},
+{
+"lat": 53.14306,
+"lon": 23.07528,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Białystok",
+"dist_km": 3.49
+},
+{
+"lat": 53.13389,
+"lon": 23.18083,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Białystok",
+"dist_km": 3.03
+},
+{
+"lat": 53.1475,
+"lon": 23.17722,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Białystok",
+"dist_km": 3.18
+},
+{
+"lat": 53.14722,
+"lon": 23.11639,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Białystok",
+"dist_km": 1.97
+},
+{
+"lat": 53.16083,
+"lon": 23.23111,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Białystok",
+"dist_km": 7.06
+},
+{
+"lat": 53.13639,
+"lon": 23.165,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Białystok",
+"dist_km": 2.0
+},
+{
+"lat": 53.16,
+"lon": 23.125,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Białystok",
+"dist_km": 3.0
+},
+{
+"lat": 52.98833,
+"lon": 22.885,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Łapy",
+"dist_km": 0.2
+},
+{
+"lat": 52.98,
+"lon": 22.85944,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Łapy",
+"dist_km": 0.14
+},
+{
+"lat": 53.1325,
+"lon": 22.985,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Choroszcz",
+"dist_km": 6.78
+},
+{
+"lat": 52.95417,
+"lon": 22.96361,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Suraż",
+"dist_km": 6.56
+},
+{
+"lat": 53.12944,
+"lon": 23.17,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Białystok",
+"dist_km": 2.35
+},
+{
+"lat": 53.00833,
+"lon": 23.0675,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Szerenosy",
+"dist_km": 6.98
+},
+{
+"lat": 52.91222,
+"lon": 22.82056,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Chomizna",
+"dist_km": 5.33
+},
+{
+"lat": 53.13028,
+"lon": 23.0725,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Białystok",
+"dist_km": 2.59
+},
+{
+"lat": 53.10889,
+"lon": 23.14639,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Białystok",
+"dist_km": 2.5
+},
+{
+"lat": 53.13806,
+"lon": 23.12,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Białystok",
+"dist_km": 1.06
+},
+{
+"lat": 53.12722,
+"lon": 23.16139,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Białystok",
+"dist_km": 1.87
+},
+{
+"lat": 53.11861,
+"lon": 23.15611,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Białystok",
+"dist_km": 2.16
+},
+{
+"lat": 53.11583,
+"lon": 23.21556,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Białystok",
+"dist_km": 5.7
+},
+{
+"lat": 53.13611,
+"lon": 23.16306,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Białystok",
+"dist_km": 1.86
+},
+{
+"lat": 53.15861,
+"lon": 23.11222,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Białystok",
+"dist_km": 3.17
+},
+{
+"lat": 53.1225,
+"lon": 23.1775,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Białystok",
+"dist_km": 3.07
+},
+{
+"lat": 53.12778,
+"lon": 23.17306,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Białystok",
+"dist_km": 2.59
+},
+{
+"lat": 53.16389,
+"lon": 23.07917,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Białystok",
+"dist_km": 5.01
+},
+{
+"lat": 53.10944,
+"lon": 23.18389,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Białystok",
+"dist_km": 4.2
+},
+{
+"lat": 52.23444,
+"lon": 20.98722,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.83
+},
+{
+"lat": 52.23806,
+"lon": 21.00111,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.8
+},
+{
+"lat": 52.23028,
+"lon": 21.01194,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.63
+},
+{
+"lat": 52.24417,
+"lon": 21.08639,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 2.18
+},
+{
+"lat": 52.25444,
+"lon": 21.04389,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 0.66
+},
+{
+"lat": 52.22444,
+"lon": 21.02083,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.69
+},
+{
+"lat": 52.23583,
+"lon": 21.015,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 3.09
+},
+{
+"lat": 52.2575,
+"lon": 20.98528,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.62
+},
+{
+"lat": 53.12278,
+"lon": 23.1775,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Białystok",
+"dist_km": 3.06
+},
+{
+"lat": 52.22917,
+"lon": 20.99528,
+"op": "T-Mobile",
+"bands": [
+"5G2100",
+"LTE1800",
+"LTE2100",
+"LTE2600",
+"LTE800"
+],
+"place": "Warszawa",
+"dist_km": 4.62
+}
+]
+}

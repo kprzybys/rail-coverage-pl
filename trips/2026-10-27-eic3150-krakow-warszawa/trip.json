@@ -1,0 +1,98 @@
+{
+ "id": "2026-10-27-eic3150-krakow-warszawa",
+ "date": "2026-10-27",
+ "utc_offset": "+01:00",
+ "train": {
+  "number": "EIC 3150",
+  "name": "Tatry",
+  "operator": "PKP Intercity",
+  "car": "wagon 14"
+ },
+ "from": "Kraków Główny",
+ "to": "Warszawa Wschodnia",
+ "network": {
+  "operator": "Orange Polska",
+  "brand": "Wi-Fi pokładowe PKP Intercity (Hotspot_IC), wyjście do internetu przez Orange (AS5617)",
+  "device": "router pokładowy pociągu, Wi-Fi 5 GHz (VHT 80 MHz, sygnał −47 dBm, 866 Mbit/s)",
+  "phone_placement": "nie dotyczy (laptop na Wi-Fi pociągu); telefon nagrywa GPS"
+ },
+ "collector": {
+  "host": "laptop połączony z Wi-Fi pociągu",
+  "target": "1.1.1.1",
+  "method": "ping -c 10 -i 0.3 -W 2 co 30 s",
+  "note": "odpowiedź później niż 2 s liczy się jako strata; router pokładowy nie odpowiada na ping, więc odcinka laptop → router nie da się zmierzyć osobno"
+ },
+ "timetable_source": "https://www.europodroze.pl/pociag/tatry/eic-3150 (strona podaje rozkład ważny do 25.10.2026; odjazd z Krakowa 17:49 potwierdzony przez pasażera)",
+ "timetable": [
+  [
+   "Kraków Główny",
+   "17:46",
+   "17:49"
+  ],
+  [
+   "Miechów",
+   null,
+   null
+  ],
+  [
+   "Kozłów",
+   null,
+   null
+  ],
+  [
+   "Włoszczowa Północ",
+   null,
+   null
+  ],
+  [
+   "Opoczno Południe",
+   null,
+   null
+  ],
+  [
+   "Grodzisk Mazowiecki",
+   null,
+   null
+  ],
+  [
+   "Warszawa Zachodnia",
+   "20:14",
+   "20:16"
+  ],
+  [
+   "Warszawa Centralna",
+   "20:20",
+   "20:25"
+  ],
+  [
+   "Warszawa Wschodnia",
+   "20:31",
+   null
+  ]
+ ],
+ "sections": [
+  {
+   "name": "Linia 8 i CMK płd. z Krakowa",
+   "from": "Kraków Główny",
+   "to": "Włoszczowa Północ"
+  },
+  {
+   "name": "CMK (linia 4)",
+   "from": "Włoszczowa Północ",
+   "to": "Grodzisk Mazowiecki"
+  },
+  {
+   "name": "Węzeł warszawski",
+   "from": "Grodzisk Mazowiecki",
+   "to": "Warszawa Wschodnia"
+  }
+ ],
+ "delays": [],
+ "excluded": [],
+ "observations": [
+  "18:26 start pomiarów (pociąg już w drodze, ok. 37 min po odjeździe z Krakowa)",
+  "przebieg Kraków → Warszawa przez Miechów, Kozłów i CMK przyjęty jak w IC 141 (stacje bez postoju tylko jako kształt trasy); pozycje przede wszystkim z GPS telefonu",
+  "20:10 postój na Warszawie Zachodniej, pociąg ok. 4 min przed rozkładem (plan 20:14); ping w węźle warszawskim 15–40 ms, bez strat",
+  "20:28 przyjazd na Warszawę Wschodnią, koniec przejazdu Tatrami (ping do końca ~20 ms); dalej przesiadka do IC 4121"
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "all": {
+  "n": 191,
+  "share": {
+   "good": 0.696,
+   "weak": 0.199,
+   "bad": 0.105,
+   "dead": 0.0
+  },
+  "median_ms": 49,
+  "p90_ms": 207,
+  "mean_loss": 2.5
+ },
+ "excluded_n": 0,
+ "sections": {
+  "Węzeł warszawski": {
+   "n": 15,
+   "share": {
+    "good": 0.4,
+    "weak": 0.4,
+    "bad": 0.2,
+    "dead": 0.0
+   },
+   "median_ms": 84,
+   "p90_ms": 207,
+   "mean_loss": 8.7
+  },
+  "Rail Baltica (linia 6)": {
+   "n": 176,
+   "share": {
+    "good": 0.722,
+    "weak": 0.182,
+    "bad": 0.097,
+    "dead": 0.0
+   },
+   "median_ms": 48,
+   "p90_ms": 192,
+   "mean_loss": 1.9
+  }
+ },
+ "zones": 19
+}

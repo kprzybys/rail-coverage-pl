@@ -7,6 +7,7 @@ from bisect import bisect_left
 from datetime import datetime
 
 from .model import Trip, hav
+from .uplink import load_uplink, op_at
 
 GRADES = ["good", "weak", "bad", "dead"]
 GRADE_PL = {"good": "dobre", "weak": "wahania", "bad": "słabe", "dead": "brak łącza", "excluded": "pominięty"}
@@ -54,6 +55,7 @@ def load(trip_dir):
     track = []
     if os.path.exists(os.path.join(trip_dir, "track.gpx")):
         track = load_gpx(os.path.join(trip_dir, "track.gpx"))
+    uplink = load_uplink(trip_dir)
     rows = []
     for r in csv.DictReader(open(os.path.join(trip_dir, "ping.csv"))):
         t = datetime.fromisoformat(r["czas_iso"])
@@ -71,5 +73,6 @@ def load(trip_dir):
             "grade": "excluded" if excl else grade(loss, av, mx), "excluded": excl,
             "site_km": round(near[0], 2) if near else None, "site_op": near[1]["op"] if near else None,
             "site_place": near[1]["place"] if near else None,
+            "uplink_op": op_at(uplink, ts),
         })
     return trip, rows, sites, track

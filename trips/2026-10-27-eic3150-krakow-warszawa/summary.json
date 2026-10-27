@@ -1,0 +1,54 @@
+{
+ "all": {
+  "n": 251,
+  "share": {
+   "good": 0.602,
+   "weak": 0.207,
+   "bad": 0.167,
+   "dead": 0.024
+  },
+  "median_ms": 53,
+  "p90_ms": 330,
+  "mean_loss": 9.1
+ },
+ "excluded_n": 0,
+ "sections": {
+  "Linia 8 i CMK płd. z Krakowa": {
+   "n": 23,
+   "share": {
+    "good": 0.565,
+    "weak": 0.174,
+    "bad": 0.217,
+    "dead": 0.043
+   },
+   "median_ms": 51,
+   "p90_ms": 167,
+   "mean_loss": 10.9
+  },
+  "CMK (linia 4)": {
+   "n": 163,
+   "share": {
+    "good": 0.528,
+    "weak": 0.245,
+    "bad": 0.209,
+    "dead": 0.018
+   },
+   "median_ms": 58,
+   "p90_ms": 391,
+   "mean_loss": 11.1
+  },
+  "Węzeł warszawski": {
+   "n": 65,
+   "share": {
+    "good": 0.8,
+    "weak": 0.123,
+    "bad": 0.046,
+    "dead": 0.031
+   },
+   "median_ms": 35,
+   "p90_ms": 70,
+   "mean_loss": 3.5
+  }
+ },
+ "zones": 34
+}

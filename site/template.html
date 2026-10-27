@@ -3,191 +3,421 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Zasięg w pociągu · rail-coverage-pl</title>
+<title>Zasięg internetu w pociągu · rail-coverage-pl</title>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <style>
-  :root { --bg:#f3f5f4; --panel:#fff; --fg:#18211f; --muted:#5d6a66; --line:#d5dcd9;
-          --good:#1f9d55; --weak:#d9a400; --bad:#d4462f; --dead:#18211f; --excluded:#b8c2be; --train:#0b5fff; }
-  @media (prefers-color-scheme: dark) { :root { --bg:#111816; --panel:#19221f; --fg:#e3ebe8; --muted:#93a19c; --line:#2c3834;
-          --good:#3cc274; --weak:#f0c02e; --bad:#f2674f; --dead:#e3ebe8; --excluded:#56625e; --train:#5b93ff; } }
+  :root {
+    /* surfaces & ink */
+    --bg:#f5f7f6; --panel:#ffffff; --panel-2:#fafbfa; --line:#e3e8e5; --line-2:#eef1ef;
+    --ink:#131a18; --ink-2:#45534e; --muted:#6c7a74;
+    /* quality scale (ordered severity) */
+    --good:#1f9d55; --weak:#d9a400; --bad:#d4462f; --dead:#18211f; --excluded:#b9c2be;
+    /* operators (categorical, CVD-validated) */
+    --Orange:#eb6834; --TMobile:#d6218b; --Play:#6250d6; --Plus:#008300; --inny:#8a9692;
+    --train:#0b5fff;
+    /* type & space */
+    --r:12px; --r-sm:8px;
+    --sp-1:4px; --sp-2:8px; --sp-3:12px; --sp-4:16px; --sp-5:24px; --sp-6:36px;
+  }
+  @media (prefers-color-scheme: dark) { :root {
+    --bg:#0e1413; --panel:#161e1b; --panel-2:#131a18; --line:#28322e; --line-2:#1f2825;
+    --ink:#e7eeeb; --ink-2:#b2bfb9; --muted:#8a9892;
+    --good:#35c06f; --weak:#ecc23c; --bad:#f2674f; --dead:#e7eeeb; --excluded:#55615d;
+    --Orange:#dd6f33; --TMobile:#db4f93; --Play:#9085e9; --Plus:#2faf6f; --inny:#8a9892;
+    --train:#5b93ff;
+  } }
   * { box-sizing: border-box; }
-  body { margin: 0; background: var(--bg); color: var(--fg); font: 15px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; }
-  .wrap { max-width: 1180px; margin: 0 auto; padding: 20px max(16px, env(safe-area-inset-left)); display: grid; gap: 18px; }
-  header { display: flex; flex-wrap: wrap; gap: 10px 24px; align-items: end; justify-content: space-between; }
-  h1 { margin: 0; font-size: clamp(24px, 4vw, 34px); line-height: 1.1; }
-  h1 small { display: block; font-size: 13px; font-weight: 500; color: var(--muted); letter-spacing: .06em; text-transform: uppercase; margin-bottom: 4px; }
-  h2 { margin: 0 0 10px; font-size: 18px; }
-  select, button { font: inherit; color: var(--fg); background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; }
-  button { cursor: pointer; } button:focus-visible, select:focus-visible { outline: 2px solid var(--train); outline-offset: 2px; }
-  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 14px; min-width: 0; }
-  .stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; }
-  .stats div { padding: 10px 12px; border: 1px solid var(--line); border-radius: 8px; background: var(--panel); }
-  .stats b { display: block; font-size: 22px; font-variant-numeric: tabular-nums; }
-  .stats span { color: var(--muted); font-size: 13px; }
-  @media (max-width: 640px) { .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
-  #map { height: min(62vh, 560px); border-radius: 8px; }
-  .player { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-top: 10px; }
-  .player input[type=range] { flex: 1 1 240px; }
-  .now { font-variant-numeric: tabular-nums; color: var(--muted); font-size: 14px; min-width: 0; }
-  canvas { width: 100%; display: block; }
-  .legend { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 13px; color: var(--muted); margin-top: 8px; }
-  .legend i { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 5px; vertical-align: -1px; }
-  .zones { display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 10px; }
-  .zone { border: 1px solid var(--line); border-left: 5px solid var(--dead); border-radius: 8px; padding: 10px 12px; background: var(--panel); cursor: pointer; }
-  .zone.bad { border-left-color: var(--bad); }
-  .zone b { font-size: 20px; font-variant-numeric: tabular-nums; }
-  .zone p { margin: 2px 0; font-size: 13px; color: var(--muted); }
-  footer { color: var(--muted); font-size: 13px; }
-  a { color: var(--train); }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin:0; background:var(--bg); color:var(--ink);
+    font:15px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif; }
+  .wrap { max-width:1080px; margin:0 auto; padding:var(--sp-5) max(var(--sp-4),env(safe-area-inset-left)); }
+  .wrap > * + * { margin-top:var(--sp-5); }
+
+  /* masthead */
+  .masthead { display:flex; flex-wrap:wrap; gap:var(--sp-4) var(--sp-5); align-items:flex-end; justify-content:space-between; }
+  .kicker { font-size:12px; letter-spacing:.14em; text-transform:uppercase; color:var(--muted); font-weight:600; }
+  h1 { margin:.1em 0 0; font-size:clamp(25px,3.6vw,34px); line-height:1.1; letter-spacing:-.01em; }
+  .lede { margin:var(--sp-2) 0 0; color:var(--ink-2); max-width:54ch; }
+  .picker { display:flex; flex-direction:column; gap:var(--sp-1); font-size:12px; color:var(--muted);
+    text-transform:uppercase; letter-spacing:.08em; font-weight:600; }
+  select,button { font:inherit; color:var(--ink); background:var(--panel); border:1px solid var(--line);
+    border-radius:var(--r-sm); padding:8px 12px; }
+  select { font-weight:500; text-transform:none; letter-spacing:0; min-width:min(320px,70vw); }
+  button { cursor:pointer; }
+  button:focus-visible, select:focus-visible, a:focus-visible { outline:2px solid var(--train); outline-offset:2px; }
+
+  /* trip meta bar */
+  .meta { display:flex; flex-wrap:wrap; gap:var(--sp-2) 0; padding:var(--sp-3) var(--sp-4);
+    background:var(--panel); border:1px solid var(--line); border-radius:var(--r); list-style:none; margin:0; }
+  .meta li { display:flex; flex-direction:column; padding:0 var(--sp-4); border-left:1px solid var(--line-2); }
+  .meta li:first-child { border-left:0; padding-left:0; }
+  .meta dt { font-size:11px; letter-spacing:.07em; text-transform:uppercase; color:var(--muted); }
+  .meta dd { margin:2px 0 0; font-weight:600; }
+
+  /* summary */
+  .headline { margin:0; font-size:clamp(18px,2.4vw,22px); line-height:1.35; color:var(--ink); font-weight:500; max-width:40ch; }
+  .headline b { font-weight:700; }
+  .stats { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:var(--sp-3); margin-top:var(--sp-4); }
+  .stat { padding:var(--sp-3) var(--sp-4); background:var(--panel); border:1px solid var(--line);
+    border-radius:var(--r); border-top:3px solid var(--line); }
+  .stat .v { font-size:28px; font-weight:650; line-height:1; letter-spacing:-.01em; }
+  .stat .l { display:block; margin-top:6px; color:var(--ink-2); font-size:13px; }
+  .stat .s { display:block; color:var(--muted); font-size:12px; }
+  @media (max-width:620px){ .stats { grid-template-columns:repeat(2,minmax(0,1fr)); } }
+
+  /* cards & section headers */
+  .card { background:var(--panel); border:1px solid var(--line); border-radius:var(--r); padding:var(--sp-4); }
+  .card > h2 { margin:0; font-size:18px; letter-spacing:-.01em; }
+  .card > .sub { margin:4px 0 var(--sp-4); color:var(--muted); font-size:13.5px; max-width:66ch; }
+
+  #map { height:min(60vh,540px); border-radius:var(--r-sm); border:1px solid var(--line); }
+  .player { display:flex; flex-wrap:wrap; align-items:center; gap:var(--sp-3); margin-top:var(--sp-3); }
+  .player input[type=range]{ flex:1 1 220px; accent-color:var(--train); }
+  .now { font-variant-numeric:tabular-nums; color:var(--ink-2); font-size:13.5px; min-width:0; }
+  canvas { width:100%; display:block; }
+
+  /* legend (shared component) */
+  .legend { display:flex; flex-wrap:wrap; gap:6px 16px; font-size:12.5px; color:var(--ink-2); margin-top:var(--sp-3); }
+  .legend .note { color:var(--muted); flex-basis:100%; margin-top:2px; }
+  .legend i { display:inline-block; width:11px; height:11px; border-radius:3px; margin-right:6px; vertical-align:-1px; }
+
+  /* operator tiles */
+  .ops { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:var(--sp-3); }
+  .op { padding:var(--sp-3) var(--sp-4); background:var(--panel-2); border:1px solid var(--line);
+    border-radius:var(--r-sm); border-left:4px solid var(--inny); }
+  .op .n { font-weight:650; }
+  .op .v { font-variant-numeric:tabular-nums; }
+  .op .s { display:block; color:var(--muted); font-size:12.5px; margin-top:2px; }
+
+  /* zones */
+  .zones { display:grid; grid-template-columns:repeat(auto-fill,minmax(220px,1fr)); gap:var(--sp-3); }
+  .zone { border:1px solid var(--line); border-left:4px solid var(--dead); border-radius:var(--r-sm);
+    padding:var(--sp-3) var(--sp-4); background:var(--panel-2); cursor:pointer; text-align:left; width:100%; }
+  .zone.bad { border-left-color:var(--bad); }
+  .zone .d { font-size:19px; font-weight:650; font-variant-numeric:tabular-nums; }
+  .zone p { margin:3px 0 0; font-size:12.5px; color:var(--muted); }
+
+  /* compare */
+  .pick { display:flex; flex-wrap:wrap; gap:8px 18px; margin-bottom:var(--sp-4); }
+  .pick label { display:flex; gap:7px; align-items:center; font-size:13.5px; }
+  .pick input { accent-color:var(--train); }
+  .hint { color:var(--muted); font-size:13.5px; }
+
+  footer { color:var(--muted); font-size:12.5px; line-height:1.6; border-top:1px solid var(--line); padding-top:var(--sp-4); }
+  a { color:var(--train); text-decoration:none; } a:hover { text-decoration:underline; }
 </style>
 </head>
 <body>
 <div class="wrap">
-  <header>
-    <h1><small id="sub"></small><span id="title">Zasięg internetu w pociągu</span></h1>
-    <select id="trip" aria-label="Przejazd"></select>
-  </header>
-  <div class="stats" id="stats"></div>
-
-  <section class="card">
-    <h2>Odtwarzanie podróży</h2>
-    <div id="map"></div>
-    <div class="player">
-      <button id="play" type="button">▶ Odtwórz</button>
-      <select id="speed" aria-label="Prędkość"><option value="60">60 s</option><option value="30">30 s</option><option value="120">2 min</option></select>
-      <input id="seek" type="range" min="0" max="1000" value="0" aria-label="Czas podróży">
-      <span class="now" id="now"></span>
+  <header class="masthead">
+    <div>
+      <div class="kicker">rail-coverage-pl</div>
+      <h1>Zasięg internetu w pociągu</h1>
+      <p class="lede">Jakość mobilnego łącza w polskich pociągach, kilometr po kilometrze — mierzona z fotela pasażera.</p>
     </div>
-    <canvas id="chart" height="150"></canvas>
-    <div class="legend"><span><i style="background:var(--good)"></i>dobre</span><span><i style="background:var(--weak)"></i>wahania</span>
-      <span><i style="background:var(--bad)"></i>słabe</span><span><i style="background:var(--dead)"></i>brak łącza</span>
-      <span><i style="background:var(--excluded)"></i>pominięty (zakłócony pomiar)</span></div>
+    <label class="picker">Przejazd<select id="trip" aria-label="Wybierz przejazd"></select></label>
+  </header>
+
+  <ul class="meta" id="meta"></ul>
+
+  <section aria-label="Podsumowanie">
+    <p class="headline" id="headline"></p>
+    <div class="stats" id="stats"></div>
   </section>
 
   <section class="card">
-    <h2>Trasa w jednym pasku</h2>
-    <canvas id="strip" height="90"></canvas>
+    <h2>Mapa przejazdu</h2>
+    <p class="sub">Odtwórz podróż: kropka pociągu idzie trasą, a jej kolor i wykres pokazują jakość łącza w danej chwili. Warstwy (stacje bazowe, operator) włączysz w prawym górnym rogu mapy.</p>
+    <div id="map"></div>
+    <div class="player">
+      <button id="play" type="button">▶ Odtwórz</button>
+      <select id="speed" aria-label="Tempo odtwarzania"><option value="60">1 s = 60 s jazdy</option><option value="30">1 s = 30 s</option><option value="120">1 s = 2 min</option></select>
+      <input id="seek" type="range" min="0" max="1000" value="0" aria-label="Przewiń podróż">
+      <span class="now" id="now"></span>
+    </div>
+    <canvas id="chart" height="168" aria-label="Wykres pingu w czasie"></canvas>
+    <div class="legend" id="gradelegend"></div>
+  </section>
+
+  <section class="card" id="opcard" hidden>
+    <h2>Którym operatorem szło łącze</h2>
+    <p class="sub">Pokładowe Wi-Fi tego typu łączy kilka kart SIM. Co 30 s sprawdzamy publiczny adres IP łącza — to mówi, który operator obsługiwał ruch w danym momencie (próbka, nie przypisanie każdego pingu).</p>
+    <div class="ops" id="ops"></div>
+    <canvas id="opstrip" height="78" aria-label="Operator łącza wzdłuż trasy"></canvas>
+    <div class="legend" id="oplegend"></div>
+  </section>
+
+  <section class="card">
+    <h2>Cała trasa w jednym pasku</h2>
+    <p class="sub">Każdy słupek to jeden pomiar, ułożony według kilometra trasy. Jednym spojrzeniem widać, gdzie łącze siada.</p>
+    <canvas id="strip" height="96" aria-label="Jakość łącza wzdłuż trasy"></canvas>
+    <div class="legend" id="striplegend"></div>
   </section>
 
   <section class="card">
     <h2>Najdłuższe przerwy</h2>
+    <p class="sub">Najdłuższe ciągi słabych i martwych pomiarów. Kliknij, by przeskoczyć do tego miejsca na mapie.</p>
     <div class="zones" id="zones"></div>
   </section>
 
-  <footer>Ping co 30 s (10 pakietów do 1.1.1.1) przez hotspot w telefonie. Pozycja z GPS telefonu, a bez GPS z rozkładu jazdy.
-    Stacje bazowe: wykaz pozwoleń UKE (pozwolenie nie oznacza, że stacja działa). Mapa © OpenStreetMap, OpenRailwayMap.
-    <a href="https://github.com/kprzybys/rail-coverage-pl">Dane, kod i metoda na GitHubie</a>.</footer>
+  <section class="card">
+    <h2>Porównaj przejazdy</h2>
+    <p class="sub">Zaznacz dwa lub więcej przejazdów tą samą linią. Paski zrównują się po wspólnych stacjach, więc ten sam odcinek toru wypada jeden pod drugim — łatwo zestawić np. hotspot telefonu z pokładowym Wi-Fi.</p>
+    <div class="pick" id="pick"></div>
+    <canvas id="cmp" height="0" aria-label="Porównanie przejazdów"></canvas>
+    <p class="hint" id="cmphint">Zaznacz co najmniej dwa przejazdy powyżej.</p>
+    <div class="legend" id="cmplegend"></div>
+  </section>
+
+  <footer>
+    Metoda: co 30 s laptop wysyła 10 pingów (ping -c 10 -i 0.3 -W 2) do 1.1.1.1 przez hotspot telefonu lub pokładowe Wi-Fi;
+    odpowiedź wolniejsza niż 2 s liczy się jako strata. Pozycja z GPS telefonu, a bez GPS z rozkładu jazdy.
+    Stacje bazowe pochodzą z wykazu pozwoleń UKE — pozwolenie nie znaczy, że stacja działa. Mapa © OpenStreetMap, OpenRailwayMap.
+    <a href="https://github.com/kprzybys/rail-coverage-pl">Dane, kod i pełna metoda na GitHubie →</a>
+  </footer>
 </div>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="trips.js"></script>
 <script>
 const css = n => getComputedStyle(document.documentElement).getPropertyValue("--" + n).trim();
-const PL = { good: "dobre", weak: "wahania", bad: "słabe", dead: "brak łącza", excluded: "pominięty" };
-const map = L.map("map", { preferCanvas: true, zoomSnap: .25 });
-L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", { maxZoom: 18, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>' }).addTo(map);
-const rail = L.tileLayer("https://{s}.tiles.openrailwaymap.org/standard/{z}/{x}/{y}.png", { maxZoom: 18, opacity: .5, attribution: 'OpenRailwayMap (CC-BY-SA)' }).addTo(map);
-let T, layer, bts, ctl, train, playing = false, t0, t1, cur = 0, last = 0;
-const fmtT = ts => new Date(ts * 1000).toLocaleTimeString("pl-PL", { hour: "2-digit", minute: "2-digit" });
-const q = r => r.avg == null ? `strata ${r.loss}%` : `${Math.round(r.avg)} ms, strata ${r.loss}%`;
+const PL = { good:"dobre", weak:"wahania", bad:"słabe", dead:"brak łącza", excluded:"pominięty" };
+const GRADES = ["good","weak","bad","dead"];
+const OPS = ["Orange","T-Mobile","Play","Plus"];
+const opVar = o => "--" + o.replace("-","");
+const opColor = o => css(opVar(o).slice(2)) || css("inny");
+const map = L.map("map",{ preferCanvas:true, zoomSnap:.25 });
+L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",{ maxZoom:18, attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>' }).addTo(map);
+const rail = L.tileLayer("https://{s}.tiles.openrailwaymap.org/standard/{z}/{x}/{y}.png",{ maxZoom:18, opacity:.5, attribution:'OpenRailwayMap (CC-BY-SA)' }).addTo(map);
+let T, layer, bts, opmk, ctl, train, playing=false, t0, t1, cur=0, last=0;
+const fmtT = ts => new Date(ts*1000).toLocaleTimeString("pl-PL",{ hour:"2-digit", minute:"2-digit" });
+const q = r => r.avg==null ? `strata ${r.loss}%` : `${Math.round(r.avg)} ms, strata ${r.loss}%`;
+const median = a => a.length ? a.slice().sort((x,y)=>x-y)[a.length>>1] : null;
+const shortName = n => n.replace(" Główny","").replace(" Wschodnia"," Wsch.").replace(" Zachodnia"," Zach.").replace(" Centralna"," Centr.").replace(" Południe"," Pd.").replace(" Północ"," Pn.");
+const gradeLegend = (withExcluded=true) => (GRADES.concat(withExcluded?["excluded"]:[]))
+  .map(g => `<span><i style="background:var(--${g})"></i>${PL[g]}</span>`).join("");
 
 function zonesOf(rows) {
-  const out = []; let z = null;
+  const out=[]; let z=null;
   for (const r of rows) {
-    if (r.grade === "dead" || r.grade === "bad") { if (!z) out.push(z = { a: r, b: r, n: 0, dead: 0 }); z.b = r; z.n++; if (r.grade === "dead") z.dead++; }
-    else z = null;
+    if (r.grade==="dead"||r.grade==="bad"){ if(!z) out.push(z={a:r,b:r,n:0,dead:0}); z.b=r; z.n++; if(r.grade==="dead") z.dead++; }
+    else z=null;
   }
-  out.forEach(z => z.dur = z.b.ts - z.a.ts + 30);
-  return out.sort((x, y) => y.dur - x.dur || y.dead - x.dead);
+  out.forEach(z=>z.dur=z.b.ts-z.a.ts+30);
+  return out.sort((x,y)=>y.dur-x.dur||y.dead-x.dead);
+}
+
+function opBreakdown(rows) {
+  const tagged=rows.filter(r=>r.uplink_op);
+  const seen=[...OPS.filter(o=>tagged.some(r=>r.uplink_op===o)), ...(tagged.some(r=>r.uplink_op==="inny")?["inny"]:[])];
+  return seen.map(o=>{
+    const rs=tagged.filter(r=>r.uplink_op===o);
+    return { op:o, n:rs.length, share:rs.length/tagged.length,
+      med:median(rs.filter(r=>r.avg!=null).map(r=>r.avg)),
+      ddead:rs.filter(r=>r.grade==="dead"||r.grade==="bad").length/rs.length };
+  });
+}
+
+function renderMeta() {
+  const km=Math.round(T.stations[T.stations.length-1].km);
+  const dur=(T.rows[T.rows.length-1].ts-T.rows[0].ts)/60, h=Math.floor(dur/60), m=Math.round(dur%60);
+  const items=[["Trasa",`${T.from} → ${T.to}`],["Data",T.date],["Pociąg",T.train],["Sieć",T.network],
+    ["Dystans",`${km} km`],["Pomiar",`${h>0?h+" h ":""}${m} min`]];
+  document.getElementById("meta").innerHTML=items.map(([k,v])=>`<li><dt>${k}</dt><dd>${v}</dd></li>`).join("");
 }
 
 function show(i) {
-  T = TRIPS[i];
-  [layer, bts, ctl].forEach(x => x && x.remove());
-  document.getElementById("title").textContent = `${T.from} → ${T.to}`;
-  document.getElementById("sub").textContent = `${T.date} · ${T.train} · ${T.network}`;
-  const used = T.rows.filter(r => r.grade !== "excluded"), share = g => Math.round(100 * used.filter(r => r.grade === g).length / used.length);
-  const avgs = used.filter(r => r.avg != null).map(r => r.avg).sort((a, b) => a - b);
-  const zs = zonesOf(used);
-  document.getElementById("stats").innerHTML = [[share("good") + "%", "pomiarów z dobrym łączem"], [Math.round(avgs[avgs.length >> 1]) + " ms", "mediana pingu"],
-    [share("dead") + "%", "pomiarów bez łącza"], [zs.length, "słabych odcinków"]].map(([v, l]) => `<div><b>${v}</b><span>${l}</span></div>`).join("");
-  layer = L.layerGroup().addTo(map);
-  bts = L.layerGroup();
-  for (const s of T.sites) L.circleMarker([s.lat, s.lon], { radius: 2.5, stroke: false, fillOpacity: .35, fillColor: s.op === "Orange" ? "#f07b16" : "#c2187a" })
+  T=TRIPS[i];
+  [layer,bts,opmk,ctl].forEach(x=>x&&x.remove());
+  renderMeta();
+  const used=T.rows.filter(r=>r.grade!=="excluded"), share=g=>Math.round(100*used.filter(r=>r.grade===g).length/used.length);
+  const avgs=used.filter(r=>r.avg!=null).map(r=>r.avg).sort((a,b)=>a-b);
+  const med=avgs.length?Math.round(avgs[avgs.length>>1]):"–";
+  const zs=zonesOf(used);
+  document.getElementById("headline").innerHTML=`<b>${share("good")}%</b> trasy z łączem dobrym do pracy, mediana pingu <b>${med} ms</b>. ${share("dead")>0?`Bez łącza na <b>${share("dead")}%</b> trasy.`:"Bez pełnych martwych stref."}`;
+  const tiles=[
+    [share("good")+"%","dobre łącze","ping < 100 ms, bez strat","good"],
+    [med+" ms","mediana pingu","połowa pomiarów szybsza",null],
+    [share("dead")+"%","bez łącza","100% utraconych pakietów","dead"],
+    [zs.length,"słabych odcinków","ciągi słabych lub martwych pomiarów","bad"],
+  ];
+  document.getElementById("stats").innerHTML=tiles.map(([v,l,s,g])=>
+    `<div class="stat" style="${g?`border-top-color:var(--${g})`:""}"><span class="v">${v}</span><span class="l">${l}</span><span class="s">${s}</span></div>`).join("");
+  document.getElementById("gradelegend").innerHTML=gradeLegend();
+  document.getElementById("striplegend").innerHTML=gradeLegend();
+  document.getElementById("cmplegend").innerHTML=gradeLegend(false);
+
+  // Operator panel: only when the uplink IP reveals a mobile operator (not a tunnelled egress).
+  const bd=T.uplink?opBreakdown(used):[];
+  const opcard=document.getElementById("opcard");
+  opcard.hidden=!bd.some(b=>b.op!=="inny");
+  if (!opcard.hidden) {
+    document.getElementById("ops").innerHTML=bd.map(b=>`<div class="op" style="border-left-color:${opColor(b.op)}">
+      <span class="n">${b.op}</span> · <span class="v">${Math.round(b.share*100)}%</span> trasy
+      <span class="s">mediana ${b.med!=null?Math.round(b.med)+" ms":"–"} · słabo/brak ${Math.round(b.ddead*100)}%</span></div>`).join("");
+    document.getElementById("oplegend").innerHTML=bd.map(b=>`<span><i style="background:${opColor(b.op)}"></i>${b.op==="inny"?"inny / nieznany":b.op}</span>`).join("");
+    drawOpStrip();
+  }
+
+  layer=L.layerGroup().addTo(map);
+  bts=L.layerGroup();
+  for (const s of T.sites) L.circleMarker([s.lat,s.lon],{ radius:2.5, stroke:false, fillOpacity:.4, fillColor:s.op==="Orange"?css("Orange"):css("TMobile") })
     .bindTooltip(`${s.op} · ${s.place}<br>${s.bands.join(", ")}<br>pozwolenie UKE`).addTo(bts);
-  ctl = L.control.layers(null, { "Stacje bazowe (pozwolenia UKE)": bts, "OpenRailwayMap": rail }).addTo(map);
-  if (T.track.length) L.polyline(T.track, { color: "#8a9692", weight: 3 }).addTo(layer);
-  for (const s of T.stations) if (s.arr || s.dep) L.circleMarker([s.lat, s.lon], { radius: 5, color: "#18211f", weight: 2, fillColor: "#fff", fillOpacity: 1 })
-    .bindTooltip(`${s.name} ${s.arr || ""}${s.arr && s.dep ? "–" : ""}${s.dep || ""}`).addTo(layer);
-  for (const r of T.rows) L.circleMarker([r.lat, r.lon], { radius: r.grade === "good" ? 4 : 6, color: "#fff", weight: 1, fillColor: css(r.grade), fillOpacity: .95 })
-    .bindTooltip(`<b>${r.time}</b> · ${PL[r.grade]}<br>${q(r)}<br>${r.where}` + (r.excluded ? `<br><i>${r.excluded}</i>` : "")).addTo(layer);
-  train = L.circleMarker([T.rows[0].lat, T.rows[0].lon], { radius: 10, color: css("train"), weight: 3, fillColor: "#fff", fillOpacity: 1 }).addTo(layer);
-  map.fitBounds(L.latLngBounds(T.stations.map(s => [s.lat, s.lon])).pad(.04));
-  t0 = T.rows[0].ts; t1 = T.rows[T.rows.length - 1].ts; cur = t0;
-  document.getElementById("zones").innerHTML = zs.slice(0, 6).map((z, k) => `<div class="zone ${z.dead ? "" : "bad"}" data-ts="${z.a.ts}">
-    <b>${Math.round(z.dur / 60 * 10) / 10} min</b> ${z.dead ? "bez łącza" : "słabo"}<p>${z.a.time.slice(0, 5)} · ${z.a.where}</p>
-    <p>km ${Math.round(z.a.km)} · najbliższy BTS (UKE) ${z.a.site_km ?? "–"} km</p></div>`).join("");
-  document.querySelectorAll(".zone").forEach(el => el.onclick = () => { setT(+el.dataset.ts); map.setView(train.getLatLng(), 11); });
+  if (T.track.length) L.polyline(T.track,{ color:css("muted"), weight:3 }).addTo(layer);
+  for (const s of T.stations) if (s.arr||s.dep) L.circleMarker([s.lat,s.lon],{ radius:5, color:css("ink"), weight:2, fillColor:css("panel"), fillOpacity:1 })
+    .bindTooltip(`${s.name} ${s.arr||""}${s.arr&&s.dep?"–":""}${s.dep||""}`).addTo(layer);
+  for (const r of T.rows) L.circleMarker([r.lat,r.lon],{ radius:r.grade==="good"?4:6, color:css("panel"), weight:1, fillColor:css(r.grade), fillOpacity:.95 })
+    .bindTooltip(`<b>${r.time}</b> · ${PL[r.grade]}<br>${q(r)}<br>${r.where}`+(r.uplink_op?`<br>łącze: ${r.uplink_op}`:"")+(r.excluded?`<br><i>${r.excluded}</i>`:"")).addTo(layer);
+  train=L.circleMarker([T.rows[0].lat,T.rows[0].lon],{ radius:10, color:css("train"), weight:3, fillColor:css("panel"), fillOpacity:1 }).addTo(layer);
+
+  const overlays={ "Stacje bazowe (pozwolenia UKE)":bts, "OpenRailwayMap":rail };
+  if (!opcard.hidden) {
+    opmk=L.layerGroup();
+    for (const r of T.rows) if (r.uplink_op) L.circleMarker([r.lat,r.lon],{ radius:5, stroke:false, fillOpacity:.9, fillColor:opColor(r.uplink_op) })
+      .bindTooltip(`<b>${r.time}</b> · łącze: ${r.uplink_op}<br>${q(r)}`).addTo(opmk);
+    overlays["Operator łącza (Orange / T-Mobile)"]=opmk;
+  }
+  ctl=L.control.layers(null,overlays).addTo(map);
+
+  map.fitBounds(L.latLngBounds(T.stations.map(s=>[s.lat,s.lon])).pad(.04));
+  t0=T.rows[0].ts; t1=T.rows[T.rows.length-1].ts; cur=t0;
+  document.getElementById("zones").innerHTML=zs.slice(0,6).map(z=>`<button class="zone ${z.dead?"":"bad"}" data-ts="${z.a.ts}">
+    <span class="d">${Math.round(z.dur/60*10)/10} min</span> ${z.dead?"bez łącza":"słabo"}<p>${z.a.time.slice(0,5)} · ${z.a.where}</p>
+    <p>km ${Math.round(z.a.km)} · najbliższy BTS (UKE) ${z.a.site_km??"–"} km</p></button>`).join("")
+    || `<p class="hint">Na tym przejeździe nie było dłuższych przerw.</p>`;
+  document.querySelectorAll(".zone").forEach(el=>el.onclick=()=>{ setT(+el.dataset.ts); map.setView(train.getLatLng(),11); });
   drawStrip(); setT(t0);
 }
 
-function rowAt(t) { let i = T.rows.findIndex(r => r.ts > t); if (i < 0) i = T.rows.length; return Math.max(0, i - 1); }
+function rowAt(t){ let i=T.rows.findIndex(r=>r.ts>t); if(i<0) i=T.rows.length; return Math.max(0,i-1); }
 function setT(t) {
-  cur = Math.max(t0, Math.min(t1, t));
-  const i = rowAt(cur), a = T.rows[i], b = T.rows[Math.min(i + 1, T.rows.length - 1)], f = b.ts > a.ts ? (cur - a.ts) / (b.ts - a.ts) : 0;
-  train.setLatLng([a.lat + (b.lat - a.lat) * f, a.lon + (b.lon - a.lon) * f]).setStyle({ fillColor: css(a.grade) });
-  document.getElementById("seek").value = Math.round((cur - t0) / (t1 - t0) * 1000);
-  document.getElementById("now").textContent = `${fmtT(cur)} · ${a.where} · ${PL[a.grade]}, ${q(a)}`;
+  cur=Math.max(t0,Math.min(t1,t));
+  const i=rowAt(cur), a=T.rows[i], b=T.rows[Math.min(i+1,T.rows.length-1)], f=b.ts>a.ts?(cur-a.ts)/(b.ts-a.ts):0;
+  train.setLatLng([a.lat+(b.lat-a.lat)*f, a.lon+(b.lon-a.lon)*f]).setStyle({ fillColor:css(a.grade) });
+  document.getElementById("seek").value=Math.round((cur-t0)/(t1-t0)*1000);
+  document.getElementById("now").textContent=`${fmtT(cur)} · ${a.where} · ${PL[a.grade]}, ${q(a)}`+(a.uplink_op?` · ${a.uplink_op}`:"");
   drawChart();
 }
 
+function setupCanvas(c,h){ const dpr=devicePixelRatio||1, w=c.clientWidth; c.width=w*dpr; c.height=h*dpr;
+  const g=c.getContext("2d"); g.scale(dpr,dpr); g.clearRect(0,0,w,h); return { g, w, h }; }
+
 function drawChart() {
-  const c = document.getElementById("chart"), dpr = devicePixelRatio || 1, w = c.clientWidth, h = 150;
-  c.width = w * dpr; c.height = h * dpr; const g = c.getContext("2d"); g.scale(dpr, dpr); g.clearRect(0, 0, w, h);
-  const X = t => 40 + (t - t0) / (t1 - t0) * (w - 50), Y = ms => 10 + (1 - (Math.log10(Math.max(ms, 10)) - 1) / (Math.log10(5000) - 1)) * (h - 30);
-  g.font = "11px system-ui"; g.fillStyle = css("muted"); g.strokeStyle = css("line");
-  for (const v of [20, 100, 300, 1000, 3000]) { g.beginPath(); g.moveTo(40, Y(v)); g.lineTo(w - 10, Y(v)); g.stroke(); g.fillText(v, 4, Y(v) + 4); }
-  for (const r of T.rows) {
-    g.fillStyle = css(r.grade);
-    if (r.avg == null) g.fillRect(X(r.ts) - 1.5, 10, 3, h - 30);
-    else { g.beginPath(); g.arc(X(r.ts), Y(r.avg), r.grade === "good" ? 2 : 3, 0, 7); g.fill(); }
+  const c=document.getElementById("chart"), h=168, { g, w }=setupCanvas(c,h);
+  const padL=46, padR=12, padT=14, padB=24;
+  const X=t=>padL+(t-t0)/(t1-t0)*(w-padL-padR);
+  const Y=ms=>padT+(1-(Math.log10(Math.max(ms,10))-1)/(Math.log10(5000)-1))*(h-padT-padB);
+  g.font="11px system-ui"; g.textAlign="left";
+  for (const v of [20,100,300,1000,3000]) {
+    g.strokeStyle=css("line"); g.beginPath(); g.moveTo(padL,Y(v)); g.lineTo(w-padR,Y(v)); g.stroke();
+    g.fillStyle=css("muted"); g.fillText(v,6,Y(v)+4);
   }
-  for (let k = Math.ceil(t0 / 1800) * 1800; k <= t1; k += 1800) { g.fillStyle = css("muted"); g.fillText(fmtT(k), X(k) - 14, h - 4); }
-  g.strokeStyle = css("train"); g.lineWidth = 2; g.beginPath(); g.moveTo(X(cur), 6); g.lineTo(X(cur), h - 18); g.stroke(); g.lineWidth = 1;
+  // threshold hints
+  g.fillStyle=css("muted"); g.textAlign="right";
+  g.fillText("próg dobrego łącza",w-padR,Y(100)-5);
+  for (const r of T.rows) {
+    g.fillStyle=css(r.grade);
+    if (r.avg==null){ g.fillRect(X(r.ts)-1.5,padT,3,h-padT-padB); }
+    else { g.beginPath(); g.arc(X(r.ts),Y(r.avg),r.grade==="good"?2:3,0,7); g.fill(); }
+  }
+  g.textAlign="center";
+  for (let k=Math.ceil(t0/1800)*1800;k<=t1;k+=1800){ g.fillStyle=css("muted"); g.fillText(fmtT(k),X(k),h-6); }
+  g.save(); g.translate(12,padT+(h-padT-padB)/2); g.rotate(-Math.PI/2);
+  g.fillStyle=css("muted"); g.textAlign="center"; g.fillText("ping (ms, skala log)",0,0); g.restore();
+  g.strokeStyle=css("train"); g.lineWidth=2; g.beginPath(); g.moveTo(X(cur),padT-4); g.lineTo(X(cur),h-padB); g.stroke(); g.lineWidth=1;
+}
+
+function stationTicks(g,trip,X,baseY) {
+  g.font="11px system-ui";
+  const KM=trip.stations[trip.stations.length-1].km;
+  const named=trip.stations.filter(s=>s.arr||s.dep).filter(s=>!/Zielone|Centralna|Zachodnia/.test(s.name));
+  for (const s of named) {
+    g.fillStyle=css("ink"); g.fillRect(X(s.km)-1,baseY-8,2,8);
+    g.textAlign=s.km<15?"left":s.km>KM-15?"right":"center";
+    g.fillStyle=css("ink-2"); g.fillText(shortName(s.name),X(s.km),baseY+6);
+    g.fillStyle=css("muted"); g.fillText(`km ${Math.round(s.km)}`,X(s.km),baseY+19);
+  }
 }
 
 function drawStrip() {
-  const c = document.getElementById("strip"), dpr = devicePixelRatio || 1, w = c.clientWidth, h = 90;
-  c.width = w * dpr; c.height = h * dpr; const g = c.getContext("2d"); g.scale(dpr, dpr); g.clearRect(0, 0, w, h);
-  const KM = T.stations[T.stations.length - 1].km, X = k => 12 + k / KM * (w - 24);
-  g.fillStyle = css("line"); g.fillRect(12, 18, w - 24, 22);
-  for (const r of T.rows) { g.fillStyle = css(r.grade); g.fillRect(X(r.km) - 1, 18, Math.max(2, (w - 24) / KM * 1.2), 22); }
-  g.font = "11px system-ui"; g.textAlign = "center";
-  const named = T.stations.filter(s => s.arr || s.dep).filter(s => !/Zielone|Centralna|Zachodnia/.test(s.name));
-  for (const s of named) {
-    g.fillStyle = css("fg"); g.fillRect(X(s.km) - 1, 42, 2, 8);
-    g.textAlign = s.km < 15 ? "left" : s.km > KM - 15 ? "right" : "center";
-    g.fillText(s.name.replace(" Główny", "").replace(" Wschodnia", " Wsch.").replace(" Południe", " Pd.").replace(" Północ", " Pn."), X(s.km), 64);
-    g.fillStyle = css("muted"); g.fillText(`km ${Math.round(s.km)}`, X(s.km), 78);
+  const c=document.getElementById("strip"), h=96, { g, w }=setupCanvas(c,h);
+  const KM=T.stations[T.stations.length-1].km, X=k=>12+k/KM*(w-24);
+  g.fillStyle=css("line-2"); g.fillRect(12,16,w-24,22);
+  for (const r of T.rows){ g.fillStyle=css(r.grade); g.fillRect(X(r.km)-1,16,Math.max(2,(w-24)/KM*1.2),22); }
+  stationTicks(g,T,X,50);
+}
+
+function drawOpStrip() {
+  const c=document.getElementById("opstrip"), h=78, { g, w }=setupCanvas(c,h);
+  const KM=T.stations[T.stations.length-1].km, X=k=>12+k/KM*(w-24);
+  g.fillStyle=css("line-2"); g.fillRect(12,12,w-24,22);
+  for (const r of T.rows){ g.fillStyle=r.uplink_op?opColor(r.uplink_op):css("line-2"); g.fillRect(X(r.km)-1,12,Math.max(2,(w-24)/KM*1.2),22); }
+  stationTicks(g,T,X,44);
+}
+
+// ---- Compare: stack several trips' quality strips, aligned on shared stations ----
+const pick=document.getElementById("pick");
+TRIPS.forEach((t,i)=>{
+  const l=document.createElement("label");
+  l.innerHTML=`<input type="checkbox" value="${i}"> ${t.date} · ${t.train} ${shortName(t.from)}→${shortName(t.to)}`;
+  l.querySelector("input").onchange=drawCompare;
+  pick.append(l);
+});
+function sharedAxis(trips) {
+  const kmOf=trips.map(t=>Object.fromEntries(t.stations.map(s=>[s.name,s.km])));
+  const common=trips[0].stations.map(s=>s.name).filter(n=>kmOf.every(m=>n in m));
+  const axis=common.map(n=>({ name:n, x:kmOf[0][n] }));
+  return { common, kmOf, axis, span:axis.length?axis[axis.length-1].x-axis[0].x:0 };
+}
+function drawCompare() {
+  const sel=[...pick.querySelectorAll("input:checked")].map(i=>+i.value);
+  const hint=document.getElementById("cmphint"), c=document.getElementById("cmp");
+  if (sel.length<2){ hint.hidden=false; hint.textContent="Zaznacz co najmniej dwa przejazdy powyżej."; c.height=0; return; }
+  const trips=sel.map(i=>TRIPS[i]);
+  const { common, kmOf, axis, span }=sharedAxis(trips);
+  if (common.length<2||span<=0){ hint.hidden=false; hint.textContent="Zaznaczone przejazdy nie mają wspólnego odcinka linii do porównania."; c.height=0; return; }
+  hint.hidden=true;
+  const x0=axis[0].x, labelW=118, AX=k=>labelW+(k-x0)/span*(c.clientWidth-labelW-10);
+  const rowH=48, top=16, h=top+trips.length*rowH+44;
+  const { g, w }=setupCanvas(c,h);
+  g.font="11px system-ui"; g.textAlign="center";
+  for (const a of axis) {
+    g.strokeStyle=css("line-2"); g.beginPath(); g.moveTo(AX(a.x),top-4); g.lineTo(AX(a.x),top+trips.length*rowH); g.stroke();
+    g.fillStyle=css("muted"); g.save(); g.translate(AX(a.x),h-30); g.rotate(-Math.PI/5); g.textAlign="right"; g.fillText(shortName(a.name),0,0); g.restore();
   }
+  trips.forEach((t,ti)=>{
+    const y=top+ti*rowH;
+    g.fillStyle=css("line-2"); g.fillRect(AX(x0),y,AX(axis[axis.length-1].x)-AX(x0),24);
+    for (let j=0;j<common.length-1;j++) {
+      const a1=kmOf[ti][common[j]], a2=kmOf[ti][common[j+1]];
+      const lo=Math.min(a1,a2), hi=Math.max(a1,a2), X1=axis[j].x, X2=axis[j+1].x;
+      for (const r of t.rows) {
+        if (r.km<lo||r.km>hi||r.grade==="excluded") continue;
+        const f=hi>lo?(r.km-a1)/(a2-a1):0, ax=X1+(X2-X1)*f;
+        g.fillStyle=css(r.grade); g.fillRect(AX(ax)-1,y,Math.max(2,(AX(X2)-AX(X1))/Math.max(1,hi-lo)*1.2),24);
+      }
+    }
+    g.textAlign="left"; g.fillStyle=css("ink"); g.font="600 12px system-ui"; g.fillText(t.train,2,y+11);
+    g.fillStyle=css("muted"); g.font="11px system-ui"; g.fillText(t.network.length>22?t.network.slice(0,21)+"…":t.network,2,y+24);
+  });
 }
 
 let raf;
 function loop(ts) {
   if (!playing) return;
-  const dt = (ts - last) / 1000; last = ts;
-  setT(cur + dt * (t1 - t0) / +document.getElementById("speed").value);
-  if (cur >= t1) toggle(false); else raf = requestAnimationFrame(loop);
+  const dt=(ts-last)/1000; last=ts;
+  setT(cur+dt*(t1-t0)/+document.getElementById("speed").value);
+  if (cur>=t1) toggle(false); else raf=requestAnimationFrame(loop);
 }
 function toggle(on) {
-  playing = on ?? !playing; document.getElementById("play").textContent = playing ? "❚❚ Pauza" : "▶ Odtwórz";
-  if (playing) { if (cur >= t1) cur = t0; last = performance.now(); raf = requestAnimationFrame(loop); }
+  playing=on??!playing; document.getElementById("play").textContent=playing?"❚❚ Pauza":"▶ Odtwórz";
+  if (playing){ if(cur>=t1) cur=t0; last=performance.now(); raf=requestAnimationFrame(loop); }
 }
-document.getElementById("play").onclick = () => toggle();
-document.getElementById("seek").oninput = e => setT(t0 + e.target.value / 1000 * (t1 - t0));
-addEventListener("resize", () => { drawChart(); drawStrip(); });
-const sel = document.getElementById("trip");
-TRIPS.forEach((t, i) => sel.add(new Option(`${t.date} · ${t.train} ${t.from} → ${t.to}`, i)));
-sel.onchange = () => show(+sel.value);
+document.getElementById("play").onclick=()=>toggle();
+document.getElementById("seek").oninput=e=>setT(t0+e.target.value/1000*(t1-t0));
+addEventListener("resize",()=>{ drawChart(); drawStrip(); if(T&&!document.getElementById("opcard").hidden) drawOpStrip(); drawCompare(); });
+const sel=document.getElementById("trip");
+TRIPS.forEach((t,i)=>sel.add(new Option(`${t.date} · ${t.train} ${t.from} → ${t.to}`,i)));
+sel.onchange=()=>show(+sel.value);
 show(0);
 </script>
 </body>
